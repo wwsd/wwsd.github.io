@@ -37,6 +37,11 @@
   $color-2: #ccc;
   $bgcolor: #000;
   $bgcolor-2: #333;
+{% elsif site.theme == "seven" %}
+  $color: #0f0;
+  $color-2: #00f;
+  $bgcolor: #000;
+  $bgcolor-2: #333;
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
