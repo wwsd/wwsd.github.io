@@ -14,14 +14,13 @@ touch $NEWPOST
 echo "
 you can now use your favorite editor to edit $NEWPOST
 "
-echo "
----
+echo "---
 title: "$1"
+published: true
 layout: post
 og_image_url: ""
-description: ""
 comments: yes
-tags: [bsfs, blog]
+tags: [joshuacox, blog]
 ---
 " >> $NEWPOST
 vim $NEWPOST
