@@ -12,7 +12,7 @@ fi
 NEWPOST=_posts/`date -I`-$1.md
 TITLE=$(echo $1|sed "s/-/\ /g")
 cp -n post-template $NEWPOST
-sed -i "s/TITLE_REPLACEME/\"$TITLE\"/" $NEWPOST
+sed -i "s/TITLE_REPLACEME/$TITLE/" $NEWPOST
 echo "
 you can now use your favorite editor to edit $NEWPOST
 "

@@ -1,5 +1,5 @@
 ---
-title: ""Docker Chef Solo""
+title: "Docker Chef Solo"
 published: true
 layout: post
 og_image_url: ""
