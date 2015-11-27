@@ -7,6 +7,10 @@
 
   <body data-spy="scroll">
 
+    {% if page.disqus %}
+      <script id="dsq-count-scr" src="//joshuacoxgithubio.disqus.com/count.js" async></script>
+    {% endif %}
+
   {% include facebook.html %}
 
   {% include header.html %}
@@ -32,9 +36,31 @@
 
     {% include facebook-like.html %}
     {% if page.comments %}
-    <hr/>
-    <h4>Comments</h4>
-    <div class="fb-comments" data-href=http://bigspringfilm.github.io{{ page.url }} data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+      <hr/>
+      <h4>Comments</h4>
+      <div class="fb-comments" data-href=http://joshuacox.github.io{{ page.url }} data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+    {% endif %}
+    {% if page.disqus %}
+      <div id="disqus_thread"></div>
+      <script>
+      /**
+      * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+      */
+      var disqus_config = function () {
+      this.page.url = "http://joshuacox.github.io{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "joshuacox.github.io{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+
+      s.src = '//joshuacoxgithubio.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
     {% endif %}
 
   </div>
