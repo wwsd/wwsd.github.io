@@ -1,5 +1,5 @@
 ---
-title: disqus-and-jekyll
+title: Disqus and Jekyll
 published: true
 layout: post
 og_image_url: 
