@@ -1,8 +1,9 @@
 ---
-title: "$1"
+title: "TITLE_REPLACEME"
 published: true
 layout: post
 og_image_url: ""
-comments: yes
+disqus: yes
+comments: no
 tags: [joshuacox, blog]
 ---
