@@ -40,7 +40,7 @@
 {% elsif site.theme == "seven" %}
   $color: #0f0;
   $color-2: #0d0;
-  $bgcolor: #000;
+  $bgcolor: transparent;
   $bgcolor-2: #333;
 {% else %}
   $color: #6690b9;
@@ -57,6 +57,9 @@
 // Insert custom css below this line
 //
 
+body {
+  background-color: transparent;
+}
 .disabled-link {
   pointer-events: none;
 }
