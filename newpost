@@ -10,17 +10,8 @@ if [ $# -ne 1 ]; then
             exit 1
 fi
 NEWPOST=_posts/`date -I`-$1.md
-touch $NEWPOST
+cp -n post-template $NEWPOST
 echo "
 you can now use your favorite editor to edit $NEWPOST
 "
-echo "---
-title: "$1"
-published: true
-layout: post
-og_image_url: ""
-comments: yes
-tags: [joshuacox, blog]
----
-" >> $NEWPOST
 vim $NEWPOST
