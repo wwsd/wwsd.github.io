@@ -10,7 +10,7 @@ tags: [joshuacox, blog]
 
 Using jekyll with disqus is quite easy, you merely need to add some lines to your `_layouts/post.html`, here’s what I did:
 
-1. First add this right after your body tag (where DISQUS_SITE_NAME is the name you gave disqus for this particular site):
+First add this right after your body tag (where DISQUS_SITE_NAME is the name you gave disqus for this particular site):
 ```
 {% raw  %}
     {% if page.disqus %}
@@ -20,7 +20,7 @@ Using jekyll with disqus is quite easy, you merely need to add some lines to you
 ```
 
 
-2. Then add this somewhere after your content block  (where DISQUS_SITE_NAME is the name you gave disqus for this particular site, and DISQUS_URL is the actual URL for your site):
+Then add this somewhere after your content block  (where DISQUS_SITE_NAME is the name you gave disqus for this particular site, and DISQUS_URL is the actual URL for your site):
 ```
 {% raw  %}
   {% if page.disqus %}
