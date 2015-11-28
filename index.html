@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<section id="posts" class="posts section">
 <div class="posts">
   <div class="content full-bleed" id="recent-posts">
   {% for post in site.posts limit:50 %}<a
@@ -16,16 +17,20 @@ layout: default
           {{ post.date | date: "%b %Y" }}
         </info>
         {% if post.description %}
-        <p><span class="body "> &nbsp; &nbsp; {{ post.description | strip_html }}</span></p>
+        <p><span class="body "> &nbsp; &nbsp; {{ post.description | markdownify }}</span></p>
         {% else %}
-        <p><span class="body "> &nbsp; &nbsp; {{ post.excerpt | strip_html }}</span></p>
+        <p><span class="body "> &nbsp; &nbsp; {{ post.excerpt | markdownify }}</span></p>
         {% endif %}
       {% endif %}<!-- post.photo_url -->
       </div>
-    </a>{% endfor %}
+    </a>
+    <hr>
+    {% endfor %}
     <div class="breaker"></div>
     <div class="end">
-      <a href="/archive/">More...</a>
+      <p><a href="/archive/">More...</a></p>
+      <p> </p>
     </div>
   </div>
 </div>
+</section><!--//posts-->

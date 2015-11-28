@@ -2,4 +2,27 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<script>
+  function initSnippet() {
+    var snippet = $('#snippet pre code');
+    hljs.highlightBlock(snippet.get(0));
+    var style = $('#style-link').text();
+    $('.codestyle').each(function(i, e) {
+      e.rel = 'stylesheet';
+      e.disabled = !e.href.match(style + '\\.css$');
+    });
+    $('#language-link').html(snippet.get(0).result.language);
+    $('#control a').click(function(e) {
+      e.preventDefault();
+      $('#snippet').load(this.href, initSnippet);
+    });
+  }
+
+  $(document).ready(function(){
+    hljs.initHighlighting();
+   // initSnippet();
+  });
+</script>
+<script type="text/javascript" src="/assets/css/monokai_sublime.css"></script>

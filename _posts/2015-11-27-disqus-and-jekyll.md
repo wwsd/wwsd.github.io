@@ -5,6 +5,7 @@ layout: post
 og_image_url: 
 disqus: yes
 comments: no
+description: Using jekyll with disqus is quite easy, you merely need to add some lines to your `_layouts/post.html`
 tags: [joshuacox, blog]
 ---
 
@@ -25,6 +26,9 @@ Along the way you will come to the install section the URL will similar to ‘YO
 ### Jekyll Configuration
 
 Next add this right after your body tag (where DISQUS_SITE_NAME is the name you gave disqus for this particular site):
+
+{% highlight ruby %}
+{% endhighlight %}
 {% raw  %}
         {% if page.disqus %}
           <script id="dsq-count-scr" src="//DISQUS_SITE_NAME.disqus.com/count.js" async></script>

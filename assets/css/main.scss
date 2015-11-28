@@ -38,10 +38,10 @@
   $bgcolor: #000;
   $bgcolor-2: #333;
 {% elsif site.theme == "seven" %}
-  $color: #0f0;
+  $color: #0e0;
   $color-2: #0d0;
-  $bgcolor: transparent;
-  $bgcolor-2: #333;
+  $bgcolor: rgba(42, 0, 42, 0.7);
+  $bgcolor-2: rgba(14, 0, 14, 0.5);
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
@@ -56,7 +56,31 @@
 //
 // Insert custom css below this line
 //
+hr {
+  color: rgba(242, 0, 242, 1.0);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #420042;
+}
+code {
+  color: #F22;
+  background-color: $bgcolor-2;
+  border: 1px solid $bgcolor;
+  border-radius: 4px;
+}
+pre {
+  color: #22FF22;
+  background-color: $bgcolor-2;
+  border: 1px solid $bgcolor;
+  border-radius: 4px;
+}
 
+.posts {
+  background-color: $bgcolor-2;
+  border: 1px solid $bgcolor;
+  border-radius: 4px;
+}
 body {
   background-color: transparent;
 }

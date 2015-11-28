@@ -11,7 +11,7 @@
       <script id="dsq-count-scr" src="//joshuacoxgithubio.disqus.com/count.js" async></script>
     {% endif %}
 
-  {% include facebook.html %}
+  {% include facebook-init.html %}
 
   {% include header.html %}
 
@@ -26,7 +26,7 @@
       {{ page.date | date: "%b %d, %Y" }}
     </info>
     {% endunless %}
-    <div class="body">{{ content }}</div>
+    <div class="body posts">{{ content }}</div>
     <!-- <div class="breaker"></div> -->
     <div class="breaker"></div>
     <!-- <info class="after">
