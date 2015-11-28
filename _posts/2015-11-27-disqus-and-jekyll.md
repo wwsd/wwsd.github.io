@@ -4,7 +4,7 @@ published: true
 layout: post
 og_image_url: 
 disqus: yes
-comments: no
+fbcomments: no
 description: Using jekyll with disqus is quite easy, you merely need to add some lines to your `_layouts/post.html`
 tags: [joshuacox, blog]
 ---

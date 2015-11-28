@@ -4,7 +4,7 @@ published: true
 layout: post
 og_image_url: ""
 disqus: yes
-comments: no
+fbcomments: no
 tags: [joshuacox, blog]
 ---
 
