@@ -2,7 +2,6 @@
 title: "Docker Chef Solo"
 published: true
 layout: post
-og_image_url: ""
 disqus: yes
 fbcomments: no
 tags: [joshuacox, blog]

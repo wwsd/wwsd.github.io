@@ -30,8 +30,8 @@ var sleep = function(ms, callback) {
     },
     i = 0,
     nextTitleThing = function(titlething) {
-        i < titlethings.length - 1 ? i++ : i = 0, removeClass(titlething, "fadeInDownBig"), addClass(titlething, "fadeOutUpBig"), sleep(700, function() {
-            titlething.innerHTML = titlethings[i], removeClass(titlething, "fadeOutUpBig"), addClass(titlething, "fadeInDownBig")
+        i < titlethings.length - 1 ? i++ : i = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
+            titlething.innerHTML = titlethings[i], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
         })
     };
 document.addEventListener("DOMContentLoaded", function() {
