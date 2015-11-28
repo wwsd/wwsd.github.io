@@ -19,9 +19,9 @@ title: The Blog of Joshua Edward McLaughlin Cox
           {{ post.date | date: "%b %Y" }}
         </info>
         {% if post.description %}
-        <p><span class="body "> &nbsp; &nbsp; {{ post.description | markdownify }}</span></p>
+        <p><span class="body "> &nbsp; &nbsp; {{ post.description | strip_html }}</span></p>
         {% else %}
-        <p><span class="body "> &nbsp; &nbsp; {{ post.excerpt | markdownify }}</span></p>
+        <p><span class="body "> &nbsp; &nbsp; {{ post.excerpt | strip_html }}</span></p>
         {% endif %}
       </div>
     </a>
