@@ -1,19 +1,20 @@
 ---
 layout: default
+description: Joshua Cox's Personal Blog
+title: The Blog of Joshua Edward McLaughlin Cox
 ---
 
 <section id="posts" class="posts section">
 <div class="posts">
   <div class="content full-bleed" id="recent-posts">
   {% for post in site.posts limit:50 %}<a
-    href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
-      <div class="padded-content">
-        <div class="title"><h5>{{ post.title }}</h5></div>
-      {% if post.photo_url %}
-        <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+    href="{{ post.url }}" class="post-excerpt{% if post.og_image_url %} photo{% endif %}">
+      {% if post.og_image_url %}
+      <div class="padded-content image" style="background-image:url('{{ post.og_image_url }}')"></div>
       {% else %}
-         <!--<div class="title">{{ post.title }}</div> -->
-    </a>
+      <div class="padded-content">
+      {% endif %}<!-- post.og_image_url -->
+        <div class="title"><h5>{{ post.title }}</h5></div>
         <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%b %Y" }}
         </info>
@@ -22,8 +23,8 @@ layout: default
         {% else %}
         <p><span class="body "> &nbsp; &nbsp; {{ post.excerpt | markdownify }}</span></p>
         {% endif %}
-      {% endif %}<!-- post.photo_url -->
       </div>
+    </a>
     <hr>
     {% endfor %}
     <div class="breaker"></div>

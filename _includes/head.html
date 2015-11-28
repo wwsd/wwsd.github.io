@@ -1,6 +1,12 @@
 <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.org_name }}{% endif %}</title>
     <!-- Meta -->
+    <title>{{ page.title }}</title>
+    <meta content="{{ page.title }}" property="og:title">
+    <meta content="{{ page.title }}" name="twitter:title">
+    <meta content="{{ site.org_name }}" property="og:site_name">
+    <meta content="{{ page.description }}" name="description">
+    <meta content="{{ page.description }}" property="og:description">
+    <meta content="{{ page.description }}" name="twitter:description">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% if site.publish == true %}
