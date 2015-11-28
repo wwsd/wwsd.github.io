@@ -13,6 +13,7 @@ layout: default
         <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
       {% else %}
          <!--<div class="title">{{ post.title }}</div> -->
+    </a>
         <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%b %Y" }}
         </info>
@@ -23,7 +24,6 @@ layout: default
         {% endif %}
       {% endif %}<!-- post.photo_url -->
       </div>
-    </a>
     <hr>
     {% endfor %}
     <div class="breaker"></div>

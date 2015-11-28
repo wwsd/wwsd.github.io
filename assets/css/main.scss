@@ -38,7 +38,7 @@
   $bgcolor: #000;
   $bgcolor-2: #333;
 {% elsif site.theme == "seven" %}
-  $color: #0e0;
+  $color: #0f0;
   $color-2: #0d0;
   $bgcolor: rgba(42, 0, 42, 0.7);
   $bgcolor-2: rgba(14, 0, 14, 0.5);
@@ -56,6 +56,14 @@
 //
 // Insert custom css below this line
 //
+
+.favthing {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
 hr {
   color: rgba(242, 0, 242, 1.0);
   margin-top: 10px;
