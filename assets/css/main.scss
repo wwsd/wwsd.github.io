@@ -38,8 +38,8 @@
   $bgcolor: #000;
   $bgcolor-2: #333;
 {% elsif site.theme == "seven" %}
-  $color: #0f0;
-  $color-2: #0d0;
+  $color: #33dd00;
+  $color-2: #11bb00;
   $bgcolor: rgba(42, 0, 42, 0.7);
   $bgcolor-2: rgba(14, 0, 14, 0.5);
 {% else %}
