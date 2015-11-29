@@ -83,6 +83,18 @@ pre {
   border: 1px solid $bgcolor;
   border-radius: 4px;
 }
+.form-control {
+  color: #22FF22;
+  background-color: $bgcolor-2;
+  border: 1px solid $bgcolor;
+  border-radius: 4px;
+}
+.placeholder {
+  color: #22FF22;
+  background-color: $bgcolor-2;
+  border: 1px solid $bgcolor;
+  border-radius: 4px;
+}
 
 .posts {
   background-color: $bgcolor-2;
