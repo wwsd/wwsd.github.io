@@ -2,7 +2,6 @@
 title: Facebook Comments and Jekyll
 published: true
 layout: post
-og_image_url: 
 disqus: no
 fbcomments: yes
 description: Using jekyll with Facebook Comments was not quite as easy as disqus, but.....

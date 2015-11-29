@@ -2,7 +2,6 @@
 title: "Hilightjs"
 published: true
 layout: post
-og_image_url: ""
 disqus: yes
 comments: no
 description: Here’s an easy one, to add code hilighting to your jekyll site...

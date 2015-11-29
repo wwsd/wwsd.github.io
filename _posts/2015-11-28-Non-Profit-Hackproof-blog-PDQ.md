@@ -2,7 +2,6 @@
 title: Non Profit Hackproof blog PDQ
 published: true
 layout: post
-og_image_url: ""
 disqus: yes
 comments: no
 tags: [joshuacox, blog, nonprofit, jekyll]

@@ -2,7 +2,6 @@
 title: "Icinga2 Docker"
 published: true
 layout: post
-og_image_url: "/img/icinga_logo.jpg"
 disqus: yes
 comments: no
 tags: [joshuacox, docker, icinga2, blog]
