@@ -1,5 +1,5 @@
 ---
-title: Zooming Text
+title: Zooming Text just like JessFraz.com
 published: true
 layout: post
 disqus: yes
