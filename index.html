@@ -9,11 +9,7 @@ title: The Blog of Joshua Edward McLaughlin Cox
   <div class="content full-bleed" id="recent-posts">
   {% for post in site.posts limit:50 %}<a
     href="{{ post.url }}" class="post-excerpt{% if post.og_image_url %} photo{% endif %}">
-      {% if post.og_image_url %}
-      <div class="padded-content image" style="background-image:url('{{ post.og_image_url }}')"></div>
-      {% else %}
       <div class="padded-content">
-      {% endif %}<!-- post.og_image_url -->
         <div class="title"><h5>{{ post.title }}</h5></div>
         <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%b %Y" }}
