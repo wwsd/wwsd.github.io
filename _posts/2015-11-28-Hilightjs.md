@@ -5,8 +5,8 @@ layout: post
 disqus: yes
 comments: no
 description: Here’s an easy one, to add code hilighting to your jekyll site...
-category: blog
-tags: [joshuacox, jekyll]
+category: jekyll
+tags: [javascript, blog, jekyll]
 ---
 
 Let’s add code hilighting to your jekyll site.  You merely have to add a section like this to your head:

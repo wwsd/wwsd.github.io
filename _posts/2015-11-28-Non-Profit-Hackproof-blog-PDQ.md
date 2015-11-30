@@ -5,7 +5,7 @@ layout: post
 disqus: yes
 comments: no
 category: jekyll
-tags: [joshuacox, blog, nonprofit, jekyll]
+tags: [blog, nonprofit, jekyll]
 ---
 
 So I wanted to show a friend of mine that a static website can be a much better experience than starting out with a php/mysql based website.  

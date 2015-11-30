@@ -3,7 +3,8 @@ title: TITLE_REPLACEME
 published: true
 layout: post
 disqus: yes
-comments: no
+fbcomments: no
 category: blog
-tags: [joshuacox, linux]
+tags: 
+  - linux
 ---

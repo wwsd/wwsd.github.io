@@ -4,9 +4,9 @@ published: true
 layout: post
 disqus: no
 fbcomments: yes
-category: blog
+category: jekyll
 description: Using jekyll with Facebook Comments was not quite as easy as disqus, but.....
-tags: [joshuacox, jekyll]
+tags: [facebook, commenting, blog, jekyll]
 ---
 
 Using jekyll with Facebook Comments was not quite as easy as disqus, but in the end you merely need to add some lines to your `_layouts/post.html` along with a few other things, here’s what I did:

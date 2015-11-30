@@ -5,7 +5,7 @@ layout: post
 disqus: yes
 fbcomments: no
 category: blog
-tags: [joshuacox, blog]
+tags: [docker, chef, blog]
 ---
 
 Need to test a chef recipe or role?  I have a docker image for that:
