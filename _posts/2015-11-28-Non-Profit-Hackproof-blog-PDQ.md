@@ -4,6 +4,7 @@ published: true
 layout: post
 disqus: yes
 comments: no
+category: jekyll
 tags: [joshuacox, blog, nonprofit, jekyll]
 ---
 

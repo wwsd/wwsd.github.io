@@ -4,5 +4,6 @@ published: true
 layout: post
 disqus: yes
 comments: no
-tags: [joshuacox, blog]
+category: blog
+tags: [joshuacox, linux]
 ---

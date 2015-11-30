@@ -5,6 +5,7 @@
 
 #REQUIRED
 org_site: joshuacox.github.io
+org_url: https://joshuacox.github.io
 org_name: Joshua Cox
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   Techromancer

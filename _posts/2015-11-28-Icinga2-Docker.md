@@ -4,7 +4,8 @@ published: true
 layout: post
 disqus: yes
 comments: no
-tags: [joshuacox, docker, icinga2, blog]
+category: docker
+tags: [joshuacox, docker, icinga2]
 ---
 
 Today we’re going to be experimenting with adding Icinga2 to our Monitoring setup.  There’s an official icinga blog post here [icinga.org/2015/06/03/docker-docker-docker/](https://www.icinga.org/2015/06/03/docker-docker-docker/)

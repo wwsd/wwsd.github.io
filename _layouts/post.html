@@ -7,9 +7,9 @@
 
   <body data-spy="scroll">
 
-    {% if page.disqus %}
-      <script id="dsq-count-scr" src="//joshuacoxgithubio.disqus.com/count.js" async></script>
-    {% endif %}
+  {% if page.disqus %}
+    <script id="dsq-count-scr" src="//joshuacoxgithubio.disqus.com/count.js" async></script>
+  {% endif %}
 
   {% include facebook-init.html %}
 
@@ -33,6 +33,7 @@
 <div class="fb-like" data-href="http://rsms.me{{ page.url }}" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
     </info> -->
 
+<p id="post-meta">{{ tags_content }}</p>
 
     {% include facebook-like.html %}
     {% if page.fbcomments %}
@@ -65,15 +66,13 @@
 
   </div>
 
-    {% include contact.html %}
-
   {% include socialicons.html %}
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    {% include scripts.html %}
+  {% include scripts.html %}
 
-    {% include googleanalytics.html %}
+  {% include googleanalytics.html %}
 
   </body>
 
