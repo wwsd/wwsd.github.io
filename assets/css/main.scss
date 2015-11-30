@@ -111,25 +111,25 @@ a.post-excerpt {
     }*/
     a.post-excerpt.photo div.title {
       padding:10px 40px;
-      font-size: 300%;
+      font-size: 100%;
       font-weight: 100;
-      color: white;
+      color: $color;
       /*background:rgba(255,200,0,0.1);*/
       -webkit-text-shadow:
-        -1px -1px 0 rgba(0, 0, 0, 0.8),
-         1px -1px 0 rgba(0, 0, 0, 0.8),
-        -1px  1px 0 rgba(0, 0, 0, 0.8),
-         1px  1px 0 rgba(0, 0, 0, 0.8);
+        -1px -1px 0 rgba(0, 0, 0, 0.9),
+         1px -1px 0 rgba(0, 0, 0, 0.9),
+        -1px  1px 0 rgba(0, 0, 0, 0.9),
+         1px  1px 0 rgba(0, 0, 0, 0.9);
       -moz-text-shadow:
-        -1px -1px 0 rgba(0, 0, 0, 0.8),
-         1px -1px 0 rgba(0, 0, 0, 0.8),
-        -1px  1px 0 rgba(0, 0, 0, 0.8),
-         1px  1px 0 rgba(0, 0, 0, 0.8);
+        -1px -1px 0 rgba(0, 0, 0, 0.9),
+         1px -1px 0 rgba(0, 0, 0, 0.9),
+        -1px  1px 0 rgba(0, 0, 0, 0.9),
+         1px  1px 0 rgba(0, 0, 0, 0.9);
       text-shadow:
-        -1px -1px 0 rgba(0, 0, 0, 0.8),
-         1px -1px 0 rgba(0, 0, 0, 0.8),
-        -1px  1px 0 rgba(0, 0, 0, 0.8),
-         1px  1px 0 rgba(0, 0, 0, 0.8);
+        -1px -1px 0 rgba(0, 0, 0, 0.9),
+         1px -1px 0 rgba(0, 0, 0, 0.9),
+        -1px  1px 0 rgba(0, 0, 0, 0.9),
+         1px  1px 0 rgba(0, 0, 0, 0.9);
       position: absolute;
       left:0; right:0; bottom:0;
       z-index:2;
