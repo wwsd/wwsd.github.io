@@ -5,9 +5,11 @@ layout: post
 disqus: yes
 fbcomments: no
 category: blog
-photo_url: "http://farm8.staticflickr.com/7451/9254559408_c34e7b9304_c.jpg"
+photo_url: /img/thumbs/icinga_logo.jpg
 tags: [ansible, docker, icinga2]
 ---
+
+![](/img/icinga_logo.jpg)
 
 Today we’re going to be experimenting with adding Icinga2 to our Monitoring setup.  There’s an official icinga blog post here [icinga.org/2015/06/03/docker-docker-docker/](https://www.icinga.org/2015/06/03/docker-docker-docker/)
 
