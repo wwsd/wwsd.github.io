@@ -3,8 +3,9 @@ title: "Icinga2 Docker"
 published: true
 layout: post
 disqus: yes
-comments: no
+fbcomments: no
 category: blog
+photo_url: "http://farm8.staticflickr.com/7451/9254559408_c34e7b9304_c.jpg"
 tags: [ansible, docker, icinga2]
 ---
 
