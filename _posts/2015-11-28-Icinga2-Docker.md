@@ -4,7 +4,7 @@ published: true
 layout: post
 disqus: yes
 fbcomments: no
-category: blog
+category: docker
 photo_url: /img/thumbs/icinga_logo.jpg
 tags: [ansible, docker, icinga2]
 ---

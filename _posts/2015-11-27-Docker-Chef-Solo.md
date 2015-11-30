@@ -4,7 +4,7 @@ published: true
 layout: post
 disqus: yes
 fbcomments: no
-category: blog
+category: docker
 tags: [docker, chef, blog]
 ---
 
