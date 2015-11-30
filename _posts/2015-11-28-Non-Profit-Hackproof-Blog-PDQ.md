@@ -9,6 +9,7 @@ description: So I wanted to show a friend of mine that a static website can be a
 tags: [blog, nonprofit, jekyll]
 redirect_from:
   - /jekyll/2015/11/28/Non-Profit-Hackproof-blog-PDQ.html
+  - /2015/11/28/Non-Profit-Hackproof-blog-PDQ.html
 ---
 
 So I wanted to show a friend of mine that a static website can be a much better experience than starting out with a php/mysql based website.  
