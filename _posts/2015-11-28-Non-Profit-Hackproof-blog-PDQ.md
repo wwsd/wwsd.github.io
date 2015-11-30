@@ -1,10 +1,11 @@
 ---
-title: Non Profit Hackproof blog PDQ
+title: Non Profit Hackproof Blog PDQ
 published: true
 layout: post
 disqus: yes
 comments: no
 category: jekyll
+description: So I wanted to show a friend of mine that a static website can be a much better experience than starting out with a php/mysql based website.  
 tags: [blog, nonprofit, jekyll]
 ---
 

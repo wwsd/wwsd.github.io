@@ -12,7 +12,7 @@ tags:
 
 Let's make an index page for both our categories and tags for our jekyll blog
 
-First you will need to properly tag and categorize your posts add lines like these in your front matter:
+First you will need to properly tag and categorize your posts, to do this add lines like these in your front matter:
 
       category: jekyll
       tags: 
