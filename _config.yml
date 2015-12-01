@@ -6,6 +6,11 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
 
+name: "The Blog of Joshua Cox"
+description: "Where I blog about Jekyll, techronmancy, docker, and other usually linux related stuff"
+url: http://joshuacox.github.io
+author: Joshua Cox
+
 #REQUIRED
 org_site: joshuacox.github.io
 org_url: https://joshuacox.github.io
@@ -28,8 +33,9 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
   (512) 441-5269
 
 #SOCIAL MEDIA
-org_twitter_username: uberthoth
-org_facebook_username: uberthoth
+github_username: joshucox
+twitter_username: uberthoth
+facebook_username: uberthoth
 org_instagram_username: uberthoth
 
 #TAX STATUS
