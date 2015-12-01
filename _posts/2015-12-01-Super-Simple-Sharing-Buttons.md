@@ -15,29 +15,13 @@ description: Easily generate and add social media share buttons to your site
 
 ![](/img/socialmediabuttons.jpg)
 
-# Bam you got shares
+# Add some share buttons to your posts
 
 Easily generate and add social media share buttons to your site, first go here:
 
 [simplesharingbuttons.com](https://simplesharingbuttons.com/)
 
-Click Begin
-
-Choose a style
-
-Click Next
-
-choose which networks to use
-
-Click Next
-
-Add you website info
-
-Click Next
-
-Look at the Live Preview
-
-Grab the code
+go through the steps there until you get the code for your buttons
 
 Then stick the code you get in an include  I chose `_includes/share.html`
 
@@ -93,4 +77,6 @@ and put an include line on your post.html
     {% include share.html %}
 {% endraw  %}
 
-and now you’ve got some nice share buttons at the bottom of your site.
+# Bam you’ve got shares
+
+and now you’ve got some nice share buttons at the bottom of your post.
