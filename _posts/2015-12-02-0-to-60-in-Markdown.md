@@ -20,29 +20,31 @@ Here’s the first line under ‘philosophy’ From the [daring fireball main si
 
 Markdown is very much like an old email, you just write normally and your text is transformed into plain text between `<p></p>` tags
 
-# Headings
+## Headings
 
 you can give a header to a section by placing a `#` mark at the start of a line like so
 
-    # This is a title
+    ## This is a title
 
 comes out like this if I don’t indent it:
 
-# This is a title
+## This is a title
 
 What was that about indenting?  Well you can tell markdown to not touch a block by placing four spaces at the start of a line, let’s see another
 
-    ## This is an H2
+    ### This is an H3
 
 And if we remove the four spaces:
 
-## This is an H2
+### This is an H3
 
 So placing a number of `#` in front of a line of text marks it as a heading, the more `######` the smaller the heading down to an H6
 
+#### This is an H4
+##### This is an H5
 ###### This is an H6
 
-# Links
+## Links
 
 How do you add links? they are added by placing your link name inbetween square brackets, then immediately follow by your URL in parantheses like this
 
@@ -60,7 +62,7 @@ Will look like this:
 
 [My Blog](http://joshuacox.github.io/)
 
-# Images
+## Images
 
 How about images? Like links they are added by placing a `!` before your image name inbetween square brackets, then immediately follow by your image URL in parantheses like this
 
