@@ -2,8 +2,8 @@
 title: 0 to 60 in Markdown
 published: true
 layout: post
-disqus: "yes"
-fbcomments: "no"
+disqus: yes
+fbcomments: false
 category: jekyll
 description: "What is markdown?"
 tags: 

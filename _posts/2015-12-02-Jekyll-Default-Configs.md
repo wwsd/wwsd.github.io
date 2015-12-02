@@ -3,7 +3,7 @@ title: Jekyll Default Configs
 published: true
 layout: post
 disqus: "yes"
-fbcomments: "no"
+fbcomments: false
 category: jekyll
 tags: 
   - jekyll
