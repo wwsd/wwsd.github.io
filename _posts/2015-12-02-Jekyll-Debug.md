@@ -8,7 +8,7 @@ debugger: false
 description: Let’s pick apart Jekyll’s brain today
 category: blog
 tags: 
-  - linux
+  - jekyll
 ---
 
 Let’s pick apart Jekyll’s brain today
