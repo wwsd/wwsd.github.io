@@ -41,7 +41,9 @@ And if we remove the four spaces:
 So placing a number of `#` in front of a line of text marks it as a heading, the more `######` the smaller the heading down to an H6
 
 #### This is an H4
+
 ##### This is an H5
+
 ###### This is an H6
 
 ## Links
