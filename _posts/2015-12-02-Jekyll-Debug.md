@@ -6,9 +6,11 @@ disqus: yes
 fbcomments: no
 debugger: false
 description: Let’s pick apart Jekyll’s brain today
-category: blog
+category: jekyll
 tags: 
   - jekyll
+redirect_from:
+  - /blog/2015/12/02/Jekyll-Debug.html
 ---
 
 Let’s pick apart Jekyll’s brain today
