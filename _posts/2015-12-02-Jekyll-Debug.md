@@ -61,7 +61,7 @@ First you have make a new directory `_plugins` if you don’t already have one, 
     Liquid::Template.register_filter(Jekyll::DebugFilter)
 {% endraw  %}
 
-Then I like to make an include file in it I place a div containing that `{{ site | debug }}` like so
+Then I like to make an include file in it I place a div containing that `{% raw  %}{{ site | debug }}{% endraw  %}` like so
 
 {% raw  %}
     <div class="debugger">
