@@ -81,6 +81,10 @@ Now add a span where ever you like and the javascript will start animating it, e
 
     <h3><span class="animated titlething">{{ site.org_summary }}</span></h3>
 
+I also had to add in animate.css
+
+      <link rel=”stylesheet” href=”/assets/css/animate.min.css”>
+
 My complete changes to the javascript:
 
 {% highlight javascript %}

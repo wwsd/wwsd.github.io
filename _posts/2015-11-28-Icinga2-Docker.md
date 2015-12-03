@@ -5,6 +5,7 @@ layout: post
 disqus: yes
 fbcomments: no
 category: docker
+description: Today we’re going to be experimenting with adding Icinga2 to our Monitoring setup
 photo_url: /img/thumbs/icinga_logo.jpg
 tags: [ansible, docker, icinga2]
 ---

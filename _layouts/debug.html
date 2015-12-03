@@ -75,6 +75,10 @@
 
   {% include socialicons.html %}
 
+  {% if page.debugger %}
+    {% include debugger.html %}
+  {% endif %}
+
   {% include footer.html %}
 
   {% include scripts.html %}
