@@ -120,6 +120,11 @@ prose:
           element: "checkbox"
           label: "Disqus Comments"
           value: true
+      - name: "fbcomments"
+        field:
+          element: "checkbox"
+          label: "Facebook Comments"
+          value: false
       - name: "published"
         field:
           element: "checkbox"
