@@ -101,38 +101,68 @@ prose:
   media: 'media'
   metadata:
     _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
-      - name: "splash"
+      - name: "photo_url"
         field:
           element: "text"
-          label: "Splash image"
+          label: "450x450 Picture Thumb for index"
           value: ""
+      - name: "disqus"
+        field:
+          element: "checkbox"
+          label: "Disqus Comments"
+          value: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+      - name: "category"
+        field:
+          element: "select"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Docker"
+              value: "docker"
+            - name: "Linux"
+              value: "linux"
+            - name: "Jekyll"
+              value: "jekyll"
+            - name: "CLI"
+              value: "cli"
+            - name: "Blog Post"
+              value: "blog"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+            - name: "Docker"
+              value: "docker"
+            - name: "Linux"
+              value: "linux"
+            - name: "Jekyll"
+              value: "jekyll"
+            - name: "CLI"
+              value: "cli"
+            - name: "Humor"
+              value: "humor"
+            - name: "Ruby"
+              value: "ruby"
+            - name: "Javascript"
+              value: "javascript"
+            - name: "Python"
+              value: "python"
     _posts/static:
       - name: "layout"
         field:
