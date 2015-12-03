@@ -46,6 +46,8 @@ So placing a number of `#` in front of a line of text marks it as a heading, the
 
 ###### This is an H6
 
+And this is regular text
+
 ## Links
 
 How do you add links? they are added by placing your link name inbetween square brackets, then immediately follow by your URL in parantheses like this
