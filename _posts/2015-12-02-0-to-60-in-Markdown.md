@@ -80,6 +80,8 @@ So if you place an image in the `img` folder in your site you could call it like
     ![My helpful screenshot]({{ site.url }}/img/screenshot.jpg)
 {% endraw  %}
 
+## Going further
+
 To learn more I suggest you read the daring fireball main site:
 
 [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
