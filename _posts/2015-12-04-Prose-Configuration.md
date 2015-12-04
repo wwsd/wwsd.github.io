@@ -36,7 +36,7 @@ Rdiscount is worthy of it’s own blog post, but for now I’ll give a link:
 
 [dafoster.net/projects/rdiscount](http://dafoster.net/projects/rdiscount/)
 
-Now let’s start the specific prose configuration, first you start out with a `prose:` block, we’ll set the root url for prose to `_posts` meaning that prose will only work with files in the `_posts` folder ( and `_drafts` )
+Now let’s introduce the specific prose configurations, first you begin with a `prose:` block, we’ll set the root url for prose to `_posts` meaning that prose will only work with files in the `_posts` folder ( and `_drafts` )
 
 {% raw  %}
     prose:
