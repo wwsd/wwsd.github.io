@@ -9,6 +9,8 @@ description: Once you configure prose it becomes much more user friendly.
 tags: 
   - jekyll
   - proseio
+redirect_from:
+  - /blog/2015/12/04/Prose-Configuration/
 ---
 
 Once you configure prose it becomes much more user friendly.  So let’s add some lines to our `_coonfig.yml` and improve our user’s experience.
