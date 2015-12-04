@@ -4,10 +4,11 @@ published: true
 layout: post
 disqus: yes
 fbcomments: no
-category: blog
+category: jekyll
 description: Once you configure prose it becomes much more user friendly.
 tags: 
-  - linux
+  - jekyll
+  - proseio
 ---
 
 Once you configure prose it becomes much more user friendly.  So let’s add some lines to our `_coonfig.yml` and improve our user’s experience.
