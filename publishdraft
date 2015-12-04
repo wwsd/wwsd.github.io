@@ -9,10 +9,11 @@ if [ $# -ne 1 ]; then
         '
             exit 1
 fi
-DRAFT=$1.md
-DRAFT_NAME= $(echo $1|sed "s/_drafts//")
-NEWPOST=_posts/`date -I`-$DRAFT_NAME.md
+DRAFT=$1
+DRAFT_NAME=$(echo $1|sed "s/_drafts\///")
+NEWPOST=_posts/`date -I`-$DRAFT_NAME
 mv $DRAFT $NEWPOST
+echo "mv $DRAFT $NEWPOST"
 echo "
 you can now use your favorite editor to edit $NEWPOST
 "
