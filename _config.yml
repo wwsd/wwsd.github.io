@@ -151,6 +151,7 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
+          alterable: true
           options:
             - name: "Docker"
               value: "docker"
