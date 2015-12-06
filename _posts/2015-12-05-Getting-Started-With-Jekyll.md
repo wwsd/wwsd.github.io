@@ -67,3 +67,9 @@ There are a couple of good guides out there:
 <http://learn-the-web.algonquindesign.ca/topics/jekyll-terminal-guide/>
 
 Please post in the comments if you know of any other guides that are well written and easily understandable for those new and perhaps not so comfortable with the command line.
+
+And notice the categories of this blog are completely dominated by Jekyll at the moment:
+
+[http://joshuacox.github.io/categories/](http://joshuacox.github.io/categories/)
+
+Keep an eye on that page as I plan on documenting everything I do there so that I can help others accomplish this easily
