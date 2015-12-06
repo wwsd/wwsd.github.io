@@ -21,7 +21,7 @@ I asked this question at Stack Overflow and got a fantastic response very quickl
 
 Let’s implement this in our blog
 
-First you have make a new directory `_plugins` if you don’t already have one,
+First you have to make a new directory `_plugins` (_if you don’t already have one)
 
 then add a debug.rb into it:
 

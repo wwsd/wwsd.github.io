@@ -120,7 +120,7 @@ My complete changes to the javascript:
           },
           j = 0,
           nextTitleThing = function(titlething) {
-              j < titlethings.length - 1 ? i++ : j = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
+              j < titlethings.length - 1 ? j++ : j = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
                   titlething.innerHTML = titlethings[j], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
               })
           };
