@@ -20,7 +20,7 @@ And there is a great podcast mentioned here:
 
 [5by5.tv/webahead/54](http://5by5.tv/webahead/54)
 
-#### Main Jekyll Website
+#### Jekyll Website
 
 For more resources for jekyll first is the main website which is a great place to start
 
@@ -28,7 +28,7 @@ For more resources for jekyll first is the main website which is a great place t
 
 ##### Docs
 
-The main documentation page is your main place for information on how jekyll works
+The official documentation page is your main place for information on how jekyll works
 
 [jekyllrb.com/docs/home/](http://jekyllrb.com/docs/home/)
 
