@@ -16,14 +16,19 @@ title: Proseio as CMS
 
 Ok, so let’s talk about [Prose.io](http://prose.io/) an amazing service from  [Development Seed](http://developmentseed.org)
 
-This gives an easy to use graphical user interface to jekyll blogs and many other static sites, there are a couple of good guides out there already
+This gives an easy to use graphical user interface to jekyll blogs and many other static sites
 
-<http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/>
-<http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html>
-<http://www.makeuseof.com/tag/write-and-let-the-world-revise-your-work-with-prose-io-for-github/>
-<https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/>
+I will suggest a few tweaks, 
 
-I wont’ duplicate their efforts here, but I will suggest a few tweaks, 
+First if you’ll configure prose like I describe in my blog post here:
+
+[joshuacox.github.io/jekyll/2015/12/04/Prose-Configuration](http://joshuacox.github.io/jekyll/2015/12/04/Prose-Configuration/)
+
+This makes your metadata easily editable with checkboxes and dropdown forms, it will also limit prose to only letting you edit things in the _posts folder and _drafts, this keeps things very simple, where someone who does not know html at all can easily write nicely formatted posts with headings pictures and embedded videos without issue.
+
+My favorite thing about this editor is that behind the scenes it is actually using git, so that someone who has no knowledge of what ‘git’ is can easily make ‘commits’ and push content into git without even knowing a single thing about the command line or plain text editors.  Though I’d recommend you at least learn how to make headings and add links and images from my blog post here:
+
+[joshuacox.github.io/jekyll/2015/12/02/0-to-60-in-Markdown](http://joshuacox.github.io/jekyll/2015/12/02/0-to-60-in-Markdown/)
 
 it is important to note that you can run this yourself as they have source code available here:
 
