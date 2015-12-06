@@ -50,6 +50,12 @@ When you’re ready to start working on the ‘theme’ or how your site looks y
 
 [http://jekyllrb.com/docs/templates/](http://jekyllrb.com/docs/templates/)
 
+#### History
+
+Jekyll was start in late 2008 by github cofounder Tom Preston-Warner here was his original blog post about it
+
+<http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html>
+
 #### Going further
 
 There are a couple of good guides out there:
