@@ -22,7 +22,7 @@ And there is a great podcast mentioned here:
 
 #### Jekyll Website
 
-For more resources for jekyll first is the main website which is a great place to start
+For more resources on jekyll, first is the main website which is a great place to start
 
 [jekyllrb.com/](http://jekyllrb.com/)
 
