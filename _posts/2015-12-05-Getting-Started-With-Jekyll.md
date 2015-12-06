@@ -16,6 +16,10 @@ First I want show this great playlist that is an excellent breakdown of how to g
 
 [How to build a responsive website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
 
+And there is a great podcast mentioned here:
+
+[5by5.tv/webahead/54](http://5by5.tv/webahead/54)
+
 #### Main Jekyll Website
 
 For more resources for jekyll first is the main website which is a great place to start
@@ -57,5 +61,9 @@ There are a couple of good guides out there:
 <http://www.makeuseof.com/tag/write-and-let-the-world-revise-your-work-with-prose-io-for-github/>
 
 <https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/>
+
+<http://designmodo.com/static-website-generators/>
+
+<http://learn-the-web.algonquindesign.ca/topics/jekyll-terminal-guide/>
 
 Please post in the comments if you know of any other guides that are well written and easily understandable for those new and perhaps not so comfortable with the command line.
