@@ -93,4 +93,6 @@ And Jekyll will dump the contents of it’s brain onto your page
 
 I find this useful for making sure everything is set as it is supposed to be, and it is useful for finding out about variables you did not know about
 
+NOTE: this does not work on github, as they ignore the `_plugins` directory, you’ll have `jekyll serve` locally to see the debug
+
 Happy Debugging!
