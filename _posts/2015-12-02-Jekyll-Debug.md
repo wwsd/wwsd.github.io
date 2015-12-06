@@ -19,10 +19,13 @@ I asked this question at Stack Overflow and got a fantastic response very quickl
 
 [Stack Overflow Question](http://stackoverflow.com/questions/34048313/jekyll-debug-or-print-all-variables)
 
-First you have make a new directory `_plugins` if you don’t already have one, then add a debug.rb into it:
+Let’s implement this in our blog
+
+First you have make a new directory `_plugins` if you don’t already have one,
+
+then add a debug.rb into it:
 
 {% raw  %}
-    Let’s implement this in our blog
     # A simple way to inspect liquid template variables.
     # Usage:
     #  Can be used anywhere liquid syntax is parsed (templates, includes, posts/pages)
