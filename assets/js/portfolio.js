@@ -21,17 +21,17 @@ var sleep = function(ms, callback) {
             thing.innerHTML = favthings[i], removeClass(thing, "fadeOutRightBig"), addClass(thing, "fadeInLeftBig")
         })
     };
-    titlethings = ["Console Cowboy", "Serial Samurai", "Parallel Prognosticator", "Diabolical Diagnostician", "Embedded Systems Engineer", "Wetware Whisperer", "Meta Mercenary", "Neural-Network Ninja", "SysAdmin", "Linux Geek", "Techromancer"],
+    titlethings = ["Hardware Hacker", "Console Cowboy", "Serial Samurai", "Parallel Prognosticator", "Diabolical Diagnostician", "Embedded Systems Engineer", "Wetware Whisperer", "Meta Mercenary", "Neural-Network Ninja", "SysAdmin", "Linux Geek", "Techromancer"],
     removeTitleClass = function(el, className) {
         el.classList ? el.classList.remove(className) : el.className = el.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " ")
     },
     addTitleClass = function(el, className) {
         el.classList ? el.classList.add(className) : el.className += " " + className
     },
-    i = 0,
+    j = 0,
     nextTitleThing = function(titlething) {
-        i < titlethings.length - 1 ? i++ : i = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
-            titlething.innerHTML = titlethings[i], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
+        j < titlethings.length - 1 ? j++ : j = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
+            titlething.innerHTML = titlethings[j], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
         })
     };
 document.addEventListener("DOMContentLoaded", function() {

@@ -56,10 +56,10 @@ Ok, so let’s hijack all of this and make it do our own thing first I am going 
           addTitleClass = function(el, className) {
               el.classList ? el.classList.add(className) : el.className += " " + className
           },
-          i = 0,
+          j = 0,
           nextTitleThing = function(titlething) {
-              i < titlethings.length - 1 ? i++ : i = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
-                  titlething.innerHTML = titlethings[i], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
+              j < titlethings.length - 1 ? i++ : j = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
+                  titlething.innerHTML = titlethings[j], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
               })
           };
 {% endhighlight %}
@@ -118,10 +118,10 @@ My complete changes to the javascript:
           addTitleClass = function(el, className) {
               el.classList ? el.classList.add(className) : el.className += " " + className
           },
-          i = 0,
+          j = 0,
           nextTitleThing = function(titlething) {
-              i < titlethings.length - 1 ? i++ : i = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
-                  titlething.innerHTML = titlethings[i], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
+              j < titlethings.length - 1 ? i++ : j = 0, removeClass(titlething, "fadeInLeftBig"), addClass(titlething, "fadeOutRightBig"), sleep(700, function() {
+                  titlething.innerHTML = titlethings[j], removeClass(titlething, "fadeOutRightBig"), addClass(titlething, "fadeInLeftBig")
               })
           };
       document.addEventListener("DOMContentLoaded", function() {
