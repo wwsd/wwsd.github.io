@@ -28,9 +28,11 @@ But they DO want to add links to their posts, and pictures, we need to add pictu
 
 OK, how to make all that simple?  
 
-###[Markdown](https://daringfireball.net/projects/markdown/syntax).
+##[Markdown](https://daringfireball.net/projects/markdown/syntax)!
 
-It is human readable and is easy to write as well, and every now and then if you need to put some straight up HTML in there, you can do that to, but we’re not talking about that in this post.  This is a bare knuckles guide for a first time n00b.  So let’s stick to basics.
+It is human readable and is easy to write as well, and every now and then if you need to put some straight up HTML in there, you can do that to, but we’re not talking about that in this post.  
+
+This is a bare knuckles guide for a first time n00b.  So let’s stick to basics.
 
 ### Links
 
