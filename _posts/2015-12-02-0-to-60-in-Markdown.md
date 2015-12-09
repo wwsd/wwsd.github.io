@@ -36,7 +36,7 @@ This is a bare knuckles guide for a first time n00b.  So let’s stick to basics
 
 ### Links
 
-How do you add links? they are added by placing your link name inbetween square brackets, then immediately follow by your URL in parantheses like this
+How do you add links? they are added by placing your link name inbetween square brackets, then immediately followed by your URL in parantheses like this
 
 {% raw  %}
     [MY_LINK_NAME](http://example.com/)
@@ -54,7 +54,7 @@ Will look like this:
 
 ### Images
 
-How about images? Like links they are added by placing a `!` before your image name inbetween square brackets, then immediately follow by your image URL in parantheses like this
+How about images? Like links they are added by placing a `!` before your image name inbetween square brackets, then immediately followed by your image URL in parantheses like this
 
 {% raw  %}
     ![IMAGE_TITLE](PICTURE_URL)

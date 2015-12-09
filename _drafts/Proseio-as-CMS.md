@@ -34,3 +34,10 @@ it is important to note that you can run this yourself as they have source code 
 
 [https://github.com/prose/prose/](https://github.com/prose/prose/)
 
+There is a great fedoss episode on Jekyll being used for healthcare.gov here:
+
+[fedscoop.com/fedoss-jekyll-prose-github-and-healthcare-gov](http://fedscoop.com/fedoss-jekyll-prose-github-and-healthcare-gov/)
+
+And the blog post from Development seed themselves here:
+
+[developmentseed.org/blog/new-healthcare-gov-is-open-and-cms-free](https://developmentseed.org/blog/new-healthcare-gov-is-open-and-cms-free/)
