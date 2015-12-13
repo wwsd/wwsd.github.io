@@ -77,13 +77,13 @@ Power the node(s) on
 
 #### KeyMaster
 
-by now you should be able to key the master node with your ssh keys, the password will be ‘hypriot’
+by now you should be able to key the master node with your ssh keys, ( you can do this manually with ssh-copy-id ) the password will be ‘hypriot’
 
 ```
 make key
 ```
 
-Now enter the master node with `make enter` with ssh you into the master pi that you just keyed, and change the password with the `passwd` utility
+Now enter the master node with `make enter` which will ssh you into the master pi that you just keyed, and change the password with the `passwd` utility
 
 ```
 make enter
