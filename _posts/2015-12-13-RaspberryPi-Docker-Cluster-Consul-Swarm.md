@@ -127,3 +127,17 @@ Now what that does is download two other repos:
 [http://joshuacox.github.io/local-arm/](http://joshuacox.github.io/local-arm/)
 
 As I find more local build scripts for base images I intend on adding them to local-base so that there a broad spectrum of hosts I can build in ARM securely
+
+### Bocker vs. Clucker
+
+Ok so this is a tough one, if applied to the [bokbot](http://bokbot.com/), is this a
+
+1. bocker
+
+~or~
+
+2. clucker
+
+http://joshuacox.github.io/docker/2015/12/13/RaspberryPi-Docker-Cluster-Consul-Swarm/
+
+you decide in the comments!
