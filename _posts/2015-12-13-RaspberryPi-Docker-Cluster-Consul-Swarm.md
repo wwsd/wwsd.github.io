@@ -17,9 +17,13 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex
 
 # Build a RaspberryPi docker swarm cluster repeatably with ease
 
-## Requirements
+This one is very cool and can be done in less than thirty minuters assuming you have everything
+
+#### Requirements
 
 2 or more raspberrypii (2 preferred for the quad-core and 1GB of RAM, though you can use the previous Pii as well) [yes I am using Pii to signify multiple pi :P ]
+
+2 microSD cards
 
 1 network
 
@@ -50,7 +54,9 @@ Now flash your master node, you will be prompted for details
 make master
 ```
 
-Then make a subordinate node, repeat giving unique node names for each node
+Then take out the sd card and put it in your master raspberrypi, plug it into your network, and power it on
+
+then plug in your second SD card and make a subordinate node, if you have more cards repeat giving unique node names for each node
 
 ```
 make node
@@ -105,4 +111,18 @@ make overlay-test
 
 you should now be able to create more containers at will and they will distribute among your cluster
 
+#### Local base images
 
+From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the rpi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
+
+I have a script for that here:
+
+http://joshuacox.github.io/local-base/
+
+Now what that does is download two other repos:
+
+[http://joshuacox.github.io/local-debian/](http://joshuacox.github.io/local-debian/)
+
+[http://joshuacox.github.io/alpine-arm/](http://joshuacox.github.io/alpine-arm/)
+
+As I find more local build scripts for base images I intend on adding them to local-base so that there a broad spectrum of hosts I can build in ARM securely
