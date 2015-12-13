@@ -17,6 +17,8 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex
 
 ### Build a RaspberryPi docker swarm cluster repeatably with ease
 
+![](http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex.png)
+
 This one is very cool, you end up with a personal cloud built in RaspberryPi2s that balances the containers amongst your swarm automatically, and because the nodes are autodetected and automagically added to the cluster this can be done in less than thirty minuters assuming you have everything
 
 ##### Requirements
