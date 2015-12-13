@@ -121,9 +121,12 @@ make overlay-test
 
 you should now be able to create more containers at will and they will distribute among your cluster
 
+#### Helper scripts
+
 
 
 #### Local base images
+
 From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the rpi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
 
 I have a script for that here:
