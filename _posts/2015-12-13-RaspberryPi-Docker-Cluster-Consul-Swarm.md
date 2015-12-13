@@ -21,6 +21,8 @@ This one is very cool, you end up with a personal cloud built in RaspberryPi2s t
 
 ![](http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex.png)
 
+The old raspberrypi1s were pretty cool, but the 2nd generation demands attention with quad-core processors and 1GB of RAM at $40 dollars you can build a cluster of computing hardware that is pretty cheap to get started, and easy to scale.  Just add more $40 dollar nodes
+
 ##### Requirements
 
 2 or more raspberrypis (2 preferred for the quad-core and 1GB of RAM, though you can use the previous RaspberryPi as well [so long as it has a network port or wifi dongle])
