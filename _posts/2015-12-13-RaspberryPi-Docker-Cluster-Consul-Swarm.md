@@ -37,7 +37,7 @@ I then forked their flash repo and added a Makefile:
 
 [joshuacox/hypriot-flash](https://github.com/joshuacox/hypriot-flash)
 
-###### NOTE: Everything from here on is a repeat of above the hypriot blog post but utilizing my makefile for repeatability, please run through the hypriot blogpost first so that you are familiar with the process before using the makefile instead for repeatability
+###### NOTE: Everything from here on is a repeat of above the hypriot blog post but utilizing my makefile for repeatability, please run through the hypriot blogpost first so that you are familiar with the process before using the makefile
 
 ### Makefile usage
 
