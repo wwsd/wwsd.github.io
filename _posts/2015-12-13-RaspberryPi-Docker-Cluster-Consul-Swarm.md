@@ -144,6 +144,4 @@ Ok so this is a tough one, if applied to the [bokbot](http://bokbot.com/), is th
 
 bocker  ~or~  clucker
 
-http://joshuacox.github.io/docker/2015/12/13/RaspberryPi-Docker-Cluster-Consul-Swarm/
-
 you decide in the comments!
