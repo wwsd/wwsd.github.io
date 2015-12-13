@@ -32,7 +32,6 @@ The old raspberrypi1s were pretty cool, but the 2nd generation demands attention
 ![](http://i1354.photobucket.com/albums/q698/thoth242/cluster_lab_zpssjdhfbrv.png)
 
 OK first, I started here: [blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/](http://blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/)
-
 I then forked their flash repo and added a Makefile: [joshuacox/hypriot-flash](https://github.com/joshuacox/hypriot-flash)
 
 ###### NOTE: Everything from here on is a repeat of above the hypriot blog post but utilizing my makefile for repeatability, please run through the hypriot blogpost first so that you are familiar with the process before using the makefile
@@ -139,9 +138,8 @@ in the installed packages than something built remotely.  I have a script that i
 
 Now what that does is download two other repos, and build the two base images:
 
-[http://joshuacox.github.io/local-debian/](http://joshuacox.github.io/local-debian/)
-
-[http://joshuacox.github.io/local-arm/](http://joshuacox.github.io/local-arm/)
+* [http://joshuacox.github.io/local-debian/](http://joshuacox.github.io/local-debian/)
+* [http://joshuacox.github.io/local-arm/](http://joshuacox.github.io/local-arm/)
 
 As I find more local build scripts for base images I intend on adding them to local-base so that there a broad spectrum of hosts I can build in ARM securely
 
