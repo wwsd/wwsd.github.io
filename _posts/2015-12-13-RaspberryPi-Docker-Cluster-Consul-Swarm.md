@@ -1,0 +1,108 @@
+---
+title: RaspberryPi Docker Cluster Consul Swarm
+published: true
+layout: post
+disqus: yes
+fbcomments: no
+category: docker
+description: build a raspberrypi docker swarm cluster with ease repeatably
+tags: 
+  - linux
+  - docker
+  - swarm
+  - cluster
+  - consul
+photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex.png
+---
+
+# Build a RaspberryPi docker swarm cluster repeatably with ease
+
+## Requirements
+
+2 or more raspberrypii (2 preferred for the quad-core and 1GB of RAM, though you can use the previous Pii as well) [yes I am using Pii to signify multiple pi :P ]
+
+1 network
+
+![](http://i1354.photobucket.com/albums/q698/thoth242/cluster_lab_zpsv40odaya.png)
+
+OK first, I started here:
+
+blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/](http://blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/)
+
+I then forked their flash repo and added a Makefile:
+
+[joshuacox/hypriot-flash](https://github.com/joshuacox/hypriot-flash)
+
+###### NOTE: Everything from here on is a repeat of above the hypriot blog post but utilizing my makefile for repeatability, please run through the hypriot blogpost first so that you are familiar with the process before using the makefile instead for repeatability
+
+### Makefile usage
+
+First stick the SDCARD in use `dmesg` to ensure that it is `/dev/mmcblk0` you’ll see some lines like the following in the dmesg
+
+```
+[13943.322789] mmcblk0: mmc0:e624 SU16G 14.8 GiB 
+[13943.331703]  mmcblk0: p1 p2
+[14383.049094]  mmcblk0: p1 p2
+```
+Now flash your master node, you will be prompted for details
+
+```
+make master
+```
+
+Then make a subordinate node, repeat giving unique node names for each node
+
+```
+make node
+```
+
+Alternatively make a wifi enabled node, giving wifi details as prompted for them
+
+```
+make wifi
+```
+
+Power the nodes on and you should be able to key the master node with, the password will be ‘hypriot’
+
+```
+make key
+```
+
+Now enter and change the password with the `passwd` utility
+
+```
+make enter
+```
+
+then raise the ui
+```
+make ui
+```
+
+Gaze upon all the wonderment
+
+```
+make show
+```
+
+This last one requires your BROWSER environmanet variables to be set, something like this in `.bashrc` or similar for your shell of choice
+
+```
+export BROWSER=chromium
+```
+
+Now create the overlay
+
+```
+make overlay
+```
+
+And test the overlay
+
+```
+make overlay-test
+```
+
+you should now be able to create more containers at will and they will distribute among your cluster
+
+
