@@ -29,7 +29,7 @@ This one is very cool, you end up with a personal cloud built in RaspberryPi2s t
 
 1 network
 
-![](http://i1354.photobucket.com/albums/q698/thoth242/cluster_lab_zpsv40odaya.png)
+![](http://i1354.photobucket.com/albums/q698/thoth242/cluster_lab_zpssjdhfbrv.png)
 
 OK first, I started here:
 
