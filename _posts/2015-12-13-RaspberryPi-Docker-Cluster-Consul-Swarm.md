@@ -25,21 +25,15 @@ The old raspberrypi1s were pretty cool, but the 2nd generation demands attention
 
 ##### Requirements
 
-2 or more raspberrypis (2 preferred for the quad-core and 1GB of RAM, though you can use the previous RaspberryPi as well [so long as it has a network port or wifi dongle])
-
-2 microSD cards
-
-1 network
+* 2 or more raspberrypis (2 preferred for the quad-core and 1GB of RAM, though you can use the previous RaspberryPi as well [so long as it has a network port or wifi dongle])
+* 2 microSD cards
+* 1 network
 
 ![](http://i1354.photobucket.com/albums/q698/thoth242/cluster_lab_zpssjdhfbrv.png)
 
-OK first, I started here:
+OK first, I started here: [blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/](http://blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/)
 
-[blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/](http://blog.hypriot.com/post/introducing-hypriot-cluster-lab-docker-clustering-as-easy-as-it-gets/)
-
-I then forked their flash repo and added a Makefile:
-
-[joshuacox/hypriot-flash](https://github.com/joshuacox/hypriot-flash)
+I then forked their flash repo and added a Makefile: [joshuacox/hypriot-flash](https://github.com/joshuacox/hypriot-flash)
 
 ###### NOTE: Everything from here on is a repeat of above the hypriot blog post but utilizing my makefile for repeatability, please run through the hypriot blogpost first so that you are familiar with the process before using the makefile
 
@@ -129,10 +123,8 @@ you should now be able to create more containers at will and they will distribut
 
 ###### Roustabout
 
-is my answer to a few shortcuts that should be there by default, especially 
-
-`LastDocker` which will execute a bash shell in the last docker container started, also see it’s sister `LogDockerLast`
-
+is my answer to a few shortcuts that should be there by default,
+especially `LastDocker` which will execute a bash shell in the last docker container started, also see it’s sister `LogDockerLast`
 more details here [joshuacox.github.io/roustabout](http://joshuacox.github.io/roustabout/)
 
 ###### Local base images
@@ -143,11 +135,7 @@ which will build images locally for [Alpine](http://www.alpinelinux.org/) and [D
 you will be able to stem from images you buid directly on the RaspberryPi itself.
 Thus ensuring not only that the image is compatible with ARM, but perhaps more importantly
 it’s security as well, because being built locally you have much more confidence 
-in the installed packages than something built remotely
-
-I have a script that installs both base images on my master pi here:
-
-[http://joshuacox.github.io/local-base/](http://joshuacox.github.io/local-base/)
+in the installed packages than something built remotely.  I have a script that installs both base images on my master pi here: [http://joshuacox.github.io/local-base/](http://joshuacox.github.io/local-base/)
 
 Now what that does is download two other repos, and build the two base images:
 
