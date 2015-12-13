@@ -17,7 +17,7 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex
 
 ## Build a RaspberryPi docker swarm cluster repeatably with ease
 
-This one is very cool you have a personal cloud built in rpi2s that auto spread images among your swarm, and can be done in less than thirty minuters assuming you have everything
+This one is very cool you end up with a personal cloud built in rpi2s that auto spread images amongst your swarm automatically, and because the nodes are autodetected and automagically added to the cluster this can be done in less than thirty minuters assuming you have everything
 
 ##### Requirements
 
