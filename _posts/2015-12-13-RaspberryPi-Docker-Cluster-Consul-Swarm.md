@@ -74,7 +74,7 @@ Power the node(s) on
 
 #### KeyMaster
 
-by now you should be able to key the master node with your ssh keys, ( you can do this manually with ssh-copy-id ) the password will be ‘hypriot’
+by now you should be able to key the master node with your ssh keys, the password will be ‘hypriot’. You could do this manually with ssh-copy-id or use `key` recipe like so:
 
 ```
 make key
