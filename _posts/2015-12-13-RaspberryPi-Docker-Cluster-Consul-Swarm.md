@@ -152,5 +152,3 @@ As I find more local build scripts for base images I intend on adding them to lo
 Ok so this is a tough one, if applied to the [bokbot](http://bokbot.com/), is this a
 
 bocker  ~or~  clucker
-
-you decide in the comments!
