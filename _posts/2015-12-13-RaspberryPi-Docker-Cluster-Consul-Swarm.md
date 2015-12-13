@@ -56,7 +56,7 @@ make master
 
 Then take out the sd card and put it in your master raspberrypi, plug it into your network, and power it on
 
-then plug in your second SD card and make a subordinate node, if you have more cards repeat giving unique node names for each node
+plug in your second SD card and make a subordinate node, if you have more cards repeat giving unique node names for each node
 
 ```
 make node
