@@ -17,11 +17,11 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex
 
 ### Build a RaspberryPi docker swarm cluster repeatably with ease
 
-This one is very cool, you end up with a personal cloud built in rpi2s that balances the containers amongst your swarm automatically, and because the nodes are autodetected and automagically added to the cluster this can be done in less than thirty minuters assuming you have everything
+This one is very cool, you end up with a personal cloud built in RaspberryPi2s that balances the containers amongst your swarm automatically, and because the nodes are autodetected and automagically added to the cluster this can be done in less than thirty minuters assuming you have everything
 
 ##### Requirements
 
-2 or more raspberrypii (2 preferred for the quad-core and 1GB of RAM, though you can use the previous Pii as well) [yes I am using Pii to signify multiple pi :P ]
+2 or more raspberrypis (2 preferred for the quad-core and 1GB of RAM, though you can use the previous RaspberryPi as well [so long as it has a network port or wifi dongle])
 
 2 microSD cards
 
@@ -133,7 +133,7 @@ more details here [joshuacox.github.io/roustabout](http://joshuacox.github.io/ro
 
 ###### Local base images
 
-From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the rpi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
+From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the RaspberryPi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
 
 I have a script for that here:
 
