@@ -17,7 +17,7 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex
 
 ## Build a RaspberryPi docker swarm cluster repeatably with ease
 
-This one is very cool and can be done in less than thirty minuters assuming you have everything
+This one is very cool you have a personal cloud built in rpi2s that auto spread images among your swarm, and can be done in less than thirty minuters assuming you have everything
 
 ##### Requirements
 
@@ -123,7 +123,13 @@ you should now be able to create more containers at will and they will distribut
 
 #### Helper scripts
 
+######Roustabout
 
+is my answer to a few shortcuts that should be there by default, especially 
+
+`LastDocker` which will execute a bash shell in the last docker container started, also see it’s sister `LogDockerLast`
+
+more details here [joshuacox.github.io/roustabout](http://joshuacox.github.io/roustabout/)
 
 #### Local base images
 
