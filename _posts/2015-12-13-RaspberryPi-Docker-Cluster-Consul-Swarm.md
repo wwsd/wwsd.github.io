@@ -111,6 +111,7 @@ make overlay-test
 
 you should now be able to create more containers at will and they will distribute among your cluster
 
+
 #### Local base images
 
 From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the rpi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
@@ -123,6 +124,6 @@ Now what that does is download two other repos:
 
 [http://joshuacox.github.io/local-debian/](http://joshuacox.github.io/local-debian/)
 
-[http://joshuacox.github.io/alpine-arm/](http://joshuacox.github.io/alpine-arm/)
+[http://joshuacox.github.io/local-arm/](http://joshuacox.github.io/local-arm/)
 
 As I find more local build scripts for base images I intend on adding them to local-base so that there a broad spectrum of hosts I can build in ARM securely
