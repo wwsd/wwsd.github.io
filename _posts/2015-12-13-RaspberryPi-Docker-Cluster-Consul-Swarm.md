@@ -48,6 +48,9 @@ First stick the SDCARD in use `dmesg` to ensure that it is `/dev/mmcblk0` you’
 [13943.331703]  mmcblk0: p1 p2
 [14383.049094]  mmcblk0: p1 p2
 ```
+
+##### Master
+
 Now flash your master node, you will be prompted for details
 
 ```
@@ -55,6 +58,8 @@ make master
 ```
 
 Then take out the sd card and put it in your master raspberrypi, plug it into your network, and power it on
+
+##### Node1
 
 plug in your second SD card and make a subordinate node, if you have more cards repeat giving unique node names for each node
 
@@ -68,13 +73,17 @@ Alternatively make a wifi enabled node, giving wifi details as prompted for them
 make wifi
 ```
 
-Power the nodes on and you should be able to key the master node with, the password will be ‘hypriot’
+Power the node(s) on
+
+#### KeyMaster
+
+by now you should be able to key the master node with your ssh keys, the password will be ‘hypriot’
 
 ```
 make key
 ```
 
-Now enter and change the password with the `passwd` utility
+Now enter the master node with `make enter` with ssh you into the master pi that you just keyed, and change the password with the `passwd` utility
 
 ```
 make enter
