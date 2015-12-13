@@ -92,7 +92,7 @@ Gaze upon all the wonderment
 make show
 ```
 
-This last one requires your BROWSER environmanet variables to be set, something like this in `.bashrc` or similar for your shell of choice
+This last one requires your BROWSER environmnet variables to be set, something like this in `.bashrc` or similar for your shell of choice
 
 ```
 export BROWSER=chromium
