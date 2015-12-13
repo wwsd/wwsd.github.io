@@ -128,7 +128,7 @@ From here may I suggest you add some local base files from which to build, by st
 
 I have a script for that here:
 
-http://joshuacox.github.io/local-base/
+[http://joshuacox.github.io/local-base/](http://joshuacox.github.io/local-base/)
 
 Now what that does is download two other repos:
 
