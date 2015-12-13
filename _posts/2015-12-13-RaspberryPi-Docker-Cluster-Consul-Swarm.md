@@ -43,7 +43,7 @@ I then forked their flash repo and added a Makefile:
 
 ### Makefile usage
 
-First stick the SDCARD in use `dmesg` to ensure that it is `/dev/mmcblk0` you’ll see some lines like the following in the dmesg
+First stick the SDCARD in, then use `dmesg` to ensure that it is `/dev/mmcblk0` you’ll see some lines like the following in the dmesg
 
 ```
 [13943.322789] mmcblk0: mmc0:e624 SU16G 14.8 GiB 
