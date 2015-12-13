@@ -17,11 +17,14 @@ $heart: #ff765a;
 
 /* ======= Base ======= */
 html {
-  background-image: url("/img/Mandelbrot.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #222 !important;
+  background-image: url("/img/checkboxpattern.png");
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-repeat: repeat !important;
+  background-size: auto !important;
+  background-position: left top !important;
+  background-attachment: scroll !important;
 }
 body {
   font-family: 'Lato', arial, sans-serif;
