@@ -123,7 +123,7 @@ you should now be able to create more containers at will and they will distribut
 
 #### Helper scripts
 
-######Roustabout
+###### Roustabout
 
 is my answer to a few shortcuts that should be there by default, especially 
 
@@ -131,7 +131,7 @@ is my answer to a few shortcuts that should be there by default, especially
 
 more details here [joshuacox.github.io/roustabout](http://joshuacox.github.io/roustabout/)
 
-#### Local base images
+###### Local base images
 
 From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the rpi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
 
@@ -147,7 +147,7 @@ Now what that does is download two other repos:
 
 As I find more local build scripts for base images I intend on adding them to local-base so that there a broad spectrum of hosts I can build in ARM securely
 
-### Bocker vs. Clucker
+#### Bocker vs. Clucker
 
 Ok so this is a tough one, if applied to the [bokbot](http://bokbot.com/), is this a
 
