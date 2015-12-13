@@ -15,11 +15,11 @@ tags:
 photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex.png
 ---
 
-# Build a RaspberryPi docker swarm cluster repeatably with ease
+## Build a RaspberryPi docker swarm cluster repeatably with ease
 
 This one is very cool and can be done in less than thirty minuters assuming you have everything
 
-#### Requirements
+##### Requirements
 
 2 or more raspberrypii (2 preferred for the quad-core and 1GB of RAM, though you can use the previous Pii as well) [yes I am using Pii to signify multiple pi :P ]
 
