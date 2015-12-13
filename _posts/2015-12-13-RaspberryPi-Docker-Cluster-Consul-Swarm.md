@@ -149,7 +149,7 @@ I have a script that installs both base images on my master pi here:
 
 [http://joshuacox.github.io/local-base/](http://joshuacox.github.io/local-base/)
 
-Now what that does is download two other repos:
+Now what that does is download two other repos, and build the two base images:
 
 [http://joshuacox.github.io/local-debian/](http://joshuacox.github.io/local-debian/)
 
