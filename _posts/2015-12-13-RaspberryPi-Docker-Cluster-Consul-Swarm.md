@@ -142,11 +142,7 @@ As I find more local build scripts for base images I intend on adding them to lo
 
 Ok so this is a tough one, if applied to the [bokbot](http://bokbot.com/), is this a
 
-1. bocker
-
-~or~
-
-2. clucker
+bocker  ~or~  clucker
 
 http://joshuacox.github.io/docker/2015/12/13/RaspberryPi-Docker-Cluster-Consul-Swarm/
 
