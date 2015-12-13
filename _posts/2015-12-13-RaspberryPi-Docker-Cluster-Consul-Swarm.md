@@ -135,9 +135,15 @@ more details here [joshuacox.github.io/roustabout](http://joshuacox.github.io/ro
 
 ###### Local base images
 
-From here may I suggest you add some local base files from which to build, by starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie` you’ll be able to stem from images you buid directly on the RaspberryPi itself, thus ensuring not only it’s compatibility with ARM, but perhaps more importantly it’s security as well, because being built locally you have much more confidence in the installed packages than something built remotely
+From here may I suggest you add some local base files from which to build.
+By starting your Dockerfiles with `FROM local-alpine` or `FROM local-jessie`
+which will build images locally for [Alpine](http://www.alpinelinux.org/) and [Debian](https://www.debian.org/) respetively,
+you will be able to stem from images you buid directly on the RaspberryPi itself.
+Thus ensuring not only that the image is compatible with ARM, but perhaps more importantly
+it’s security as well, because being built locally you have much more confidence 
+in the installed packages than something built remotely
 
-I have a script for that here:
+I have a script that installs both base images on my master pi here:
 
 [http://joshuacox.github.io/local-base/](http://joshuacox.github.io/local-base/)
 
