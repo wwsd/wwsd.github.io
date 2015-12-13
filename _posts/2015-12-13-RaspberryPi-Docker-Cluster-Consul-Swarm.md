@@ -25,7 +25,7 @@ The old raspberrypi1s were pretty cool, but the 2nd generation demands attention
 
 ##### Requirements
 
-* 2 or more raspberrypis (2 preferred for the quad-core and 1GB of RAM, though you can use the previous RaspberryPi as well [so long as it has a network port or wifi dongle])
+* 2 or more RaspberryPis (Raspberrypi2 preferred for the quad-core and 1GB of RAM, though you can use the previous RaspberryPi as well [so long as it has a network port or wifi dongle])
 * 2 microSD cards
 * 1 network
 
