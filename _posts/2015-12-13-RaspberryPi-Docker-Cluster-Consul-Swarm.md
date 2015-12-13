@@ -118,7 +118,7 @@ make overlay-test
 
 you should now be able to create more containers at will and they will distribute among your cluster
 
-#### Helper scripts
+#### Taking it further
 
 ###### Roustabout
 
