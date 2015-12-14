@@ -19,7 +19,7 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex
 
 This one is very cool, you end up with a personal cloud built in RaspberryPi2s that balances the containers amongst your swarm automatically, and because the nodes are autodetected and automagically added to the cluster this can be done in less than thirty minuters assuming you have everything
 
-![](http://i1354.photobucket.com/albums/q698/thoth242/hypriot_zpsqhyizsex.png)
+![](http://i1354.photobucket.com/albums/q698/thoth242/logo_tr_zpshr3qyzqt.png)
 
 The old raspberrypi1s were pretty cool, but the 2nd generation demands attention with quad-core processors and 1GB of RAM at $40 you can build a cluster of computing hardware that is pretty cheap to get started, and easy to scale.  Just add more $40 nodes
 
