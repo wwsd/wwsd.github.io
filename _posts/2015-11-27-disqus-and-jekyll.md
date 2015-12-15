@@ -15,11 +15,11 @@ Using jekyll with disqus is quite easy, you merely need to add some lines to you
 
 First you’ll need to get a disqus account 
 
-https://disqus.com/
+<https://disqus.com/>
 
 then add your site to disqus:
 
-https://disqus.com/admin/create/
+<https://disqus.com/admin/create/>
 
 Along the way you will come to the install section the URL will similar to ‘YOUR_DISQUS_URL.disqus.com/admin/settings/install/’ choose the “Universal code” In the next section I’ll show you how to conditionally add this commenting feature to your post pages using the code they give you on this installation page.
 
@@ -70,7 +70,9 @@ and you should be good to go.  Testing at the bottom of this post in fact
 
 you can see my current post.html [here](https://github.com/joshuacox/joshuacox.github.io/blob/master/_layouts/post.html)
 
-EDIT:  I moved all this out to `_includes/disqus.html` and you'll need these two lines set in `_config.yml` happy blogging
+EDIT:  I moved all this out to `_includes/disqus.html`  [here](https://github.com/joshuacox/joshuacox.github.io/blob/master/_includes/disqus.html)
+
+and you'll need these two lines set in `_config.yml` happy blogging
 
 ```
 disqus_id: joshuacoxgithubio.disqus.com
