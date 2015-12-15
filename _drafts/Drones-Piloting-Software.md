@@ -38,5 +38,6 @@ notice that still needs the radio like the 9Xr above
 Highlights from HobbyKing 2015 Beer Lift Challenge
 <iframe width=”560” height=”315” src=”https://www.youtube.com/embed/Lh5Jbi6AcsE” frameborder=”0” allowfullscreen></iframe>
 
-{% raw  %}
-{% endraw  %}
+  forum topic talking about USB input
+<http://openrcforums.com/forum/viewtopic.php?t=6538>
+
