@@ -69,3 +69,10 @@ Now make a post with this line in the YAML front matter:
 and you should be good to go.  Testing at the bottom of this post in fact
 
 you can see my current post.html [here](https://github.com/joshuacox/joshuacox.github.io/blob/master/_layouts/post.html)
+
+EDIT:  I moved all this out to `_includes/disqus.html` and you'll need these two lines set in `_config.yml` happy blogging
+
+```
+disqus_id: joshuacoxgithubio.disqus.com
+org_site: joshuacox.github.io
+```
