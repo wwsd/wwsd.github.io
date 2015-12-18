@@ -87,7 +87,7 @@ four electronic speed controllers (ESPs),
 one battery (2s - for 2 cells in series, you can break your equipment later by trying a 3s)
 don't forget propellors!
 
-or there are whole kits on [amazon](http://amzn.to/1mcJmwm) and that one is eligible for Amazon prime meaning you can 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc that you can find [here](http://astore.amazon.com/joshuacoxgith-20)
+or there are whole kits on [amazon](http://amzn.to/1mcJmwm) and that one is eligible for Amazon prime meaning you can get 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc that you can find [here](http://astore.amazon.com/joshuacoxgith-20)
 
 notice that any of those still need the radio like the [9XR Pro](http://amzn.to/1OcoHPt) that I mentioned above.
 
