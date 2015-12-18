@@ -41,3 +41,10 @@ There is a great fedoss episode on Jekyll being used for healthcare.gov here:
 And the blog post from Development seed themselves here:
 
 [developmentseed.org/blog/new-healthcare-gov-is-open-and-cms-free](https://developmentseed.org/blog/new-healthcare-gov-is-open-and-cms-free/)
+
+### WYSIWYG
+
+First I point you to this post:
+[https://github.com/prose/prose/issues/139](https://github.com/prose/prose/issues/139)
+
+And the substance of the issue [Subtance.io](http://substance.io/)

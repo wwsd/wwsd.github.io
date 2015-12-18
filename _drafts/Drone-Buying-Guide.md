@@ -5,20 +5,25 @@ published: true
 layout: post
 disqus: yes
 fbcomments: no
-category: drone
+category: embedded
 tags:
   - arduino
   - drone
   - openpilot
 ---
 
-Why pay lots of money for a toy you KNOW you are going to break?  Instead let's build our own so we know we can repair it easily and cheaply, plus we'll get to choose our own components, and later on when we want to scale up we can just remove the brains, build a new frame and attach bigger motors!  Moar power!  Mwahahahahahahah!
+Why pay lots of money for a toy you KNOW you are going to break?
+Instead let's build our own so we know we can repair it easily and cheaply, 
+plus we'll get to choose our own components, and later on when we want to scale up we can just remove the brains,
+build a new frame, place brains inside, and attach bigger motors!  Moar power!  Mwahahahahahahah!
 
 ### Pilot Software
 
-Let's start with the brains of the matter, there are quite a few choices out there, I'm going to stick to the open source stuff so we can hack on it.
+Let's start with the brains of the matter, there are quite a few choices out there,
+I'm going to stick to the open source stuff so we can hack on it.
 
-[Ardupilot](http://ardupilot.com/) is a nice place to start, take a robot add an arduino and you got yourself an autonomous pet to do your bidding.  
+[Ardupilot](http://ardupilot.com/) is a nice place to start, 
+take a robot add an arduino and you got yourself an autonomous pet to do your bidding.  
 They also made the [Mission Planner](http://planner.ardupilot.com/) software you'll see everywhere
 They seem to be sponsored or related to [diydrones](http://diydrones.com/)
 
@@ -34,7 +39,8 @@ and bit higher of a price this seems to be an up and coming feature rich option
 ### Radio TX
 
 Every RC enthusiast needs big honking Radio Controller to shout to the world about their nerdliness.
-Beware of the ultra cheap stuff, like this Hobby King [4ch TX and RX](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html)
+Beware of the ultra cheap stuff, like this Hobby King 
+[4ch TX and RX](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html)
 That will not drive all the channels necessary for our flight apparatus.
 But you also don't need an expensive [Futaba 18MZH](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html)
 You can find some really cool retro stuff out there like this
@@ -43,7 +49,7 @@ That thing looks great and is expandable to 32 channels, has speech output, tele
 The [Taranis X9D](http://www.hobbyking.com/hobbyking/store/__67752__FrSky_2_4GHz_ACCST_TARANIS_X9D_PLUS_and_X8R_Combo_Digital_Telemetry_Radio_System_Mode_2_.html)
 is a step down but comes with the receiver module
 
-#### 9XR
+##### 9XR
 
 But I wanted open source so we can hack with the code.  Looking around I found that the turnigy 9x series had an open source firmware out there:
 Turnigy 9X open source [firmware](http://www.instructables.com/id/Transform-a-cheap-RC-Transmitter-with-Custom-Firmw/)
@@ -51,17 +57,21 @@ Even better this had evolved into the 9XR and now has multiple different open so
 
 <http://www.turnigy9xr.com/>
 
-And now there is a [9XR Pro](http://www.hobbyking.com/hobbyking/store/__66719__Turnigy_9XR_PRO_Radio_Transmitter_Mode_1_without_module_US_Warehouse_.html) Ok so this looks like the platform of choice to enter open source control
+And now there is a 
+[9XR Pro](http://www.hobbyking.com/hobbyking/store/__66719__Turnigy_9XR_PRO_Radio_Transmitter_Mode_1_without_module_US_Warehouse_.html)
+Ok so this looks like the platform of choice to enter open source control
 
 Note that with this platform you still need a TX module to stick in the controller that actually does the transmissions
-[OpenLRS](http://openlrsng.org/) seems to be the leader in this field.  They have a great [hardware list](http://openlrsng.org/#hardware) on their site.  Here's a few suggestion on HobbyKing:
+[OpenLRS](http://openlrsng.org/) seems to be the leader in this field.  They have a great [hardware list](http://openlrsng.org/#hardware)
+on their site.  Here is a few suggestion on HobbyKing:
 * [OrangeRX TXmodule 100Mw](http://www.hobbyking.com/hobbyking/store/__27095__OrangeRx_Open_LRS_433MHz_TX_Module_100mW_JR_Turnigy_compatible_.html)
 * [OrangeRX TXmodule 1W](http://www.hobbyking.com/hobbyking/store/__43852__OrangeRX_Open_LRS_433MHz_Transmitter_1W_JR_Turnigy_Compatible_.html)
 
 ### Radio RX
 
 Then you'll need a module inside your UAV to receive your transmissions to control the craft.
-[OpenLRS](http://openlrsng.org/) seems to be the leader in this field.  They have a great [hardware list](http://openlrsng.org/#hardware) on their site.  
+[OpenLRS](http://openlrsng.org/) seems to be the leader in this field.
+They have a great [hardware list](http://openlrsng.org/#hardware) on their site.
 You can find the [hawkeye](http://www.amazon.com/DTF-UHF-MiniRX-OpenLRSng-Receiver/dp/B00QBKZI00) on amazon there, or 
 the [OrangeRx](http://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_LRS_433MHz_9Ch_Receiver.html) at hobbyking there
 
