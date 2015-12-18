@@ -23,18 +23,18 @@ Let's start with the brains of the matter, there are quite a few choices out the
 I'm going to stick to the open source stuff so we can hack on it.
 
 [Ardupilot](http://ardupilot.com/) is a nice place to start, 
-take a robot add an arduino and you got yourself an autonomous pet to do your bidding.  
-They also made the [Mission Planner](http://planner.ardupilot.com/) software you'll see everywhere
-They seem to be sponsored or related to [diydrones](http://diydrones.com/)
+take a robot add an arduino and you got yourself an autonomous pet to do your bidding.
+They also made the [Mission Planner](http://planner.ardupilot.com/) software you'll see everywhere.
+They are related to [diydrones](http://diydrones.com/) who claim to be the largest community of UAV amateurs, and by all means its a great place to discuss these things
 
 [pixhawk](https://pixhawk.org/choice) seems to be a popular choice albeit with dedicated hardware 
 and bit higher of a price this seems to be an up and coming feature rich option
 
 [Paparazzi](http://wiki.paparazziuav.org/wiki/Main_Page) has been around for awhile, it’s focus is on autonomous flying.
 
-[Open Pilot](https://www.openpilot.org/) is yet another open software group dedicated to drone pilot software and hardware. The [CC3D](http://amzn.to/1OcADR6) is one of the cheaper pieces of hardware available to pilot your drone.
-
 [DroneCode](https://www.dronecode.org/)  is a consortium with an impressive [memeber list](https://www.dronecode.org/about/project-members) this project is composed of many smaller projects, some of which I have already mentioned, you can find them all [here](https://www.dronecode.org/dronecode-software-platform)
+
+[Open Pilot](https://www.openpilot.org/) is yet another open software group dedicated to drone pilot software and hardware. The [CC3D](http://amzn.to/1OcADR6) is one of the cheaper pieces of hardware available to pilot your drone. And is my recommendation for your first drone
 
 ### Radio TX
 
