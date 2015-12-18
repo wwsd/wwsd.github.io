@@ -72,7 +72,7 @@ on their site.  Here is a few suggestion on HobbyKing:
 Then you'll need a module inside your UAV to receive your transmissions to control the craft.
 [OpenLRS](http://openlrsng.org/) seems to be the leader in this field.
 They have a great [hardware list](http://openlrsng.org/#hardware) on their site.
-You can find the [hawkeye](http://www.amazon.com/DTF-UHF-MiniRX-OpenLRSng-Receiver/dp/B00QBKZI00) on amazon there, or 
+You can find the [hawkeye](http://astore.amazon.com/joshuacoxgith-20/detail/B00QBKZI00) on amazon there, or 
 the [OrangeRx](http://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_LRS_433MHz_9Ch_Receiver.html) at hobbyking there
 
 ### UAV Frame, batteries, motors, and ESPs
@@ -89,9 +89,14 @@ don't forget propellors!
 and a sub$20 hobbyking frame [here](http://www.hobbyking.com/hobbyking/store/__85254__Diatone_Blade_200_Class_Micro_Multirotor_Frame_Kit.html)
 notice you can choose parts that go with it below.
 
-or there are whole kits on [amazon](http://www.amazon.com/dp/B010FMGUS8?psc=1)
+or there are whole kits on [amazon](http://amzn.to/1mcJmwm) and that one is eligible for Amazon prime meaning you can 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc:
 
-notice that still needs the radio like the 9Xr above
+<http://amzn.to/1mcKq3a>
+
+<iframe style=”width:120px;height:240px;” marginwidth=”0” marginheight=”0” scrolling=”no” frameborder=”0” src=”//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=joshuacoxgith-20&marketplace=amazon&region=US&placement=B00V35JH5A&asins=B00V35JH5A&linkId=Z4EIZPCCDMTAVRZK&show_border=true&link_opens_in_new_window=true&price_color=3388FF&title_color=00FF00&bg_color=000000”>
+</iframe>
+
+notice that any of those still need the radio like the [9XR Pro](http://amzn.to/1OcoHPt) that I mentioned above.
 
 ###Highlights from HobbyKing 2015 Beer Lift Challenge
 [youtube video here](https://www.youtube.com/embed/Lh5Jbi6AcsE)
@@ -104,4 +109,6 @@ for now check out [GetFPV](http://www.getfpv.com/) and [HobbyKing](http://www.ho
 
 Eventually I want to hook a flight stick up instead of having to use the little RC sticks [forum topic talking about USB input](http://openrcforums.com/forum/viewtopic.php?t=6538)
 
-Happy Droning folks!
+I’m setting up an amazon store with a bunch of this collected in one location.  Mainly so I can help others do the same thing with their blogs.  Happy Droning folks!
+
+<iframe src=”http://astore.amazon.com/joshuacoxgith-20” width=”90%” height=”4000” frameborder=”0” scrolling=”no”></iframe>
