@@ -38,9 +38,9 @@ and bit higher of a price this seems to be an up and coming feature rich option
 
 ### Radio TX
 
-Every RC enthusiast needs big honking Radio Controller to shout to the world about their nerdliness.
+Every RC enthusiast needs a big honking Radio Controller to shout to the world about their nerdliness.
 Beware of the ultra cheap stuff, like this Hobby King 
-[4ch TX and RX](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html)
+[4ch TX and RX](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html).
 That will not drive all the channels necessary for our flight apparatus.
 But you also don't need an expensive [Futaba 18MZH](http://amzn.to/1OcAWvq)
 You can find some really cool retro stuff out there like this
@@ -52,13 +52,16 @@ is a step down but comes with the receiver module
 ##### 9XR
 
 But I wanted open source so we can hack with the code.  Looking around I found that the turnigy 9x series had an open source firmware out there:
-Turnigy 9X open source [firmware](http://www.instructables.com/id/Transform-a-cheap-RC-Transmitter-with-Custom-Firmw/)
+[Turnigy 9X open source firmware](http://www.instructables.com/id/Transform-a-cheap-RC-Transmitter-with-Custom-Firmw/)
 Even better this had evolved into the 9XR and now has multiple different open source firmwares for it, here’s the radio:
 
 <http://www.turnigy9xr.com/>
 
 And now there is a 
 [9XR Pro](http://amzn.to/1OcBdON)
+
+<iframe id="viddler-d2c3680e" src="//www.viddler.com/embed/d2c3680e/?f=1&offset=0&autoplay=0&player=full&secret=58779214&disablebranding=0&view_secret=49636673" width="545" height="349" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 Ok so this looks like the platform of choice to enter open source control
 
 Note that with this platform you still need a TX module to stick in the controller that actually does the transmissions
@@ -70,7 +73,7 @@ on their site.  Here is a few suggestions on:
 ### Radio RX
 
 Then you'll need a module inside your UAV to receive your transmissions to control the craft.
-[OpenLRS](http://openlrsng.org/) seems to be the leader in this field.
+Again [OpenLRS](http://openlrsng.org/) seems to be the leader in this field.
 They have a great [hardware list](http://openlrsng.org/#hardware) on their site.
 You can find the [hawkeye](http://astore.amazon.com/joshuacoxgith-20/detail/B00QBKZI00) on amazon there, or 
 the [OrangeRx](http://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_LRS_433MHz_9Ch_Receiver.html) at hobbyking there
@@ -91,7 +94,7 @@ notice that any of those still need the radio like the [9XR Pro](http://amzn.to/
 ###Highlights from HobbyKing 2015 Beer Lift Challenge
 
 HobbyKing has some great challenges where they ask RC operators to do some pretty cool stuff, here are the highlights from the 2015 Beer Lift Challenge.
-[youtube video here](https://www.youtube.com/embed/Lh5Jbi6AcsE)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lh5Jbi6AcsE" frameborder="0" allowfullscreen></iframe>
 
 ### Taking it Further with FPV
 
