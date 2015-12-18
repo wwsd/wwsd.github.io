@@ -30,11 +30,11 @@ They seem to be sponsored or related to [diydrones](http://diydrones.com/)
 [pixhawk](https://pixhawk.org/choice) seems to be a popular choice albeit with dedicated hardware 
 and bit higher of a price this seems to be an up and coming feature rich option
 
-[Paparazzi](http://wiki.paparazziuav.org/wiki/Main_Page)
+[Paparazzi](http://wiki.paparazziuav.org/wiki/Main_Page) has been around for awhile, it’s focus is on autonomous flying.
 
-[DroneCode](https://www.dronecode.org/)
+[Open Pilot](https://www.openpilot.org/) is yet another open software group dedicated to drone pilot software and hardware. The [CC3D](http://amzn.to/1OcADR6) is one of the cheaper pieces of hardware available to pilot your drone.
 
-[Open Pilot](https://www.openpilot.org/)
+[DroneCode](https://www.dronecode.org/)  is a consortium with an impressive [memeber list](https://www.dronecode.org/about/project-members) this project is composed of many smaller projects, some of which I have already mentioned, you can find them all [here](https://www.dronecode.org/dronecode-software-platform)
 
 ### Radio TX
 
@@ -42,11 +42,11 @@ Every RC enthusiast needs big honking Radio Controller to shout to the world abo
 Beware of the ultra cheap stuff, like this Hobby King 
 [4ch TX and RX](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html)
 That will not drive all the channels necessary for our flight apparatus.
-But you also don't need an expensive [Futaba 18MZH](http://www.hobbyking.com/hobbyking/store/__8337__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_1_.html)
+But you also don't need an expensive [Futaba 18MZH](http://amzn.to/1OcAWvq)
 You can find some really cool retro stuff out there like this
 [Taranis X9E](http://www.hobbyking.com/hobbyking/store/__87932__Taranis_X9E_Mode_2_non_EU_Version_US_Plug_.html)
 That thing looks great and is expandable to 32 channels, has speech output, telemetry, all the bells and whistles
-The [Taranis X9D](http://www.hobbyking.com/hobbyking/store/__67752__FrSky_2_4GHz_ACCST_TARANIS_X9D_PLUS_and_X8R_Combo_Digital_Telemetry_Radio_System_Mode_2_.html)
+The [Taranis X9D](http://amzn.to/1OcB7qB)
 is a step down but comes with the receiver module
 
 ##### 9XR
@@ -58,12 +58,12 @@ Even better this had evolved into the 9XR and now has multiple different open so
 <http://www.turnigy9xr.com/>
 
 And now there is a 
-[9XR Pro](http://www.hobbyking.com/hobbyking/store/__66719__Turnigy_9XR_PRO_Radio_Transmitter_Mode_1_without_module_US_Warehouse_.html)
+[9XR Pro](http://amzn.to/1OcBdON)
 Ok so this looks like the platform of choice to enter open source control
 
 Note that with this platform you still need a TX module to stick in the controller that actually does the transmissions
 [OpenLRS](http://openlrsng.org/) seems to be the leader in this field.  They have a great [hardware list](http://openlrsng.org/#hardware)
-on their site.  Here is a few suggestion on HobbyKing:
+on their site.  Here is a few suggestions on:
 * [OrangeRX TXmodule 100Mw](http://www.hobbyking.com/hobbyking/store/__27095__OrangeRx_Open_LRS_433MHz_TX_Module_100mW_JR_Turnigy_compatible_.html)
 * [OrangeRX TXmodule 1W](http://www.hobbyking.com/hobbyking/store/__43852__OrangeRX_Open_LRS_433MHz_Transmitter_1W_JR_Turnigy_Compatible_.html)
 
@@ -78,27 +78,19 @@ the [OrangeRx](http://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_L
 ### UAV Frame, batteries, motors, and ESPs
 
 Now we need the drone itself, I'm a big fan of starting small and going big later so let's look at a few of the '200' class (200 mm that is), 
+there is a sub$20 frame [here](http://amzn.to/1NXM5UU),
 you will also need at least four motors (start with a quad as hexcopters are more complicated),
 four electronic speed controllers (ESPs),
 one battery (2s - for 2 cells in series, you can break your equipment later by trying a 3s)
 don't forget propellors!
 
-
-[qav180](http://www.getfpv.com/multi-rotor-frames/qav180-qav210-mini-fpv-quad/qav180-carbon-fiber-fpv-quadcopter.html)
-
-and a sub$20 hobbyking frame [here](http://www.hobbyking.com/hobbyking/store/__85254__Diatone_Blade_200_Class_Micro_Multirotor_Frame_Kit.html)
-notice you can choose parts that go with it below.
-
-or there are whole kits on [amazon](http://amzn.to/1mcJmwm) and that one is eligible for Amazon prime meaning you can 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc:
-
-<http://amzn.to/1mcKq3a>
-
-<iframe style=”width:120px;height:240px;” marginwidth=”0” marginheight=”0” scrolling=”no” frameborder=”0” src=”//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=joshuacoxgith-20&marketplace=amazon&region=US&placement=B00V35JH5A&asins=B00V35JH5A&linkId=Z4EIZPCCDMTAVRZK&show_border=true&link_opens_in_new_window=true&price_color=3388FF&title_color=00FF00&bg_color=000000”>
-</iframe>
+or there are whole kits on [amazon](http://amzn.to/1mcJmwm) and that one is eligible for Amazon prime meaning you can 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc that you can find [here](http://astore.amazon.com/joshuacoxgith-20)
 
 notice that any of those still need the radio like the [9XR Pro](http://amzn.to/1OcoHPt) that I mentioned above.
 
 ###Highlights from HobbyKing 2015 Beer Lift Challenge
+
+HobbyKing has some great challenges where they ask RC operators to do some pretty cool stuff, here are the highlights from the 2015 Beer Lift Challenge.
 [youtube video here](https://www.youtube.com/embed/Lh5Jbi6AcsE)
 
 ### Taking it Further with FPV
@@ -109,6 +101,5 @@ for now check out [GetFPV](http://www.getfpv.com/) and [HobbyKing](http://www.ho
 
 Eventually I want to hook a flight stick up instead of having to use the little RC sticks [forum topic talking about USB input](http://openrcforums.com/forum/viewtopic.php?t=6538)
 
-I’m setting up an amazon store with a bunch of this collected in one location.  Mainly so I can help others do the same thing with their blogs.  Happy Droning folks!
+I’m setting up an [amazon store](http://astore.amazon.com/joshuacoxgith-20) with a bunch of this collected in one location.  Mainly so I can help others do the same thing with their blogs.  Happy Droning folks!
 
-<iframe src=”http://astore.amazon.com/joshuacoxgith-20” width=”90%” height=”4000” frameborder=”0” scrolling=”no”></iframe>
