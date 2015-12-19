@@ -143,6 +143,8 @@ Now what that does is download two other repos, and build the two base images:
 
 As I find more local build scripts for base images I intend on adding them to local-base so that there a broad spectrum of hosts I can build in ARM securely
 
+I explain this local-jessie stuff a bit more in another post [here](http://joshuacox.github.io/docker/2015/12/19/local-jessie/)
+
 #### Bocker vs. Clucker
 
 Ok so this is a tough one, if applied to the [bokbot](http://bokbot.com/), is this a
