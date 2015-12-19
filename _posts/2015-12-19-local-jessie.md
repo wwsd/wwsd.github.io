@@ -35,7 +35,7 @@ Essentially upon downloading that you should be able to call the script
 ./local-jessie.sh
 ```
 
-and then afterwards you should have a local-jessie image you can source
+afterwards you should have a local-jessie image you can source
 
 ```
 root@dockerhost:~# docker images local-jessie
@@ -63,4 +63,4 @@ An example is here where I forked the official rabbitmq image and swapped out th
 
 Now I can use rabbitmq on my [Raspberrypi Cluster](http://joshuacox.github.io/docker/2015/12/13/RaspberryPi-Docker-Cluster-Consul-Swarm/)
 
-If you have any probles feel to open an [issue](https://github.com/joshuacox/local-debian/issues)
+If you have any problems feel to open an [issue](https://github.com/joshuacox/local-debian/issues)
