@@ -30,6 +30,10 @@ They are related to [diydrones](http://diydrones.com/) who claim to be the large
 [pixhawk](https://pixhawk.org/choice) seems to be a popular choice albeit with dedicated hardware 
 and bit higher of a price this seems to be an up and coming feature rich option
 
+[AeroQuad](http://aeroquad.com/content.php) This project includes some hardware designs as well as software which you can find on [github](https://github.com/AeroQuad/AeroQuad/)
+
+[NG-UAVP](http://ng.uavp.ch/FrontPage) Autonomous flight with an emphasis on aerial photography
+
 [Paparazzi](http://wiki.paparazziuav.org/wiki/Main_Page) has been around for awhile, it’s focus is on autonomous flying.
 
 [DroneCode](https://www.dronecode.org/)  is a consortium with an impressive [memeber list](https://www.dronecode.org/about/project-members) this project is composed of many smaller projects, some of which I have already mentioned, you can find them all [here](https://www.dronecode.org/dronecode-software-platform)
