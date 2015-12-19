@@ -27,7 +27,7 @@ built directly on the RaspberryPi itself.
 Thus ensuring not only that the image is compatible with ARM,
 but perhaps more importantly it’s security as well,
 because being built locally you have much more confidence in the installed packages than something built remotely.
-The main project here consists of a Makefile that installs both base images on my master pi, homepage [here](http://joshuacox.github.io/local-debian/)
+The main project here consists of a Makefile that installs both base images on my master pi, homepage here [joshuacox.github.io/local-debian](http://joshuacox.github.io/local-debian/)
 
 Essentially upon downloading that you should be able to call the script
 
