@@ -36,6 +36,7 @@ Essentially upon downloading that you should be able to call the script
 ```
 
 and then afterwards you should have a local-jessie image you can source
+
 ```
 root@dockerhost:~# docker images local-jessie
 REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
