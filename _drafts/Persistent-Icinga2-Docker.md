@@ -1,5 +1,5 @@
 ---
-title: Persistent Icinga2 Docker
+title: Persistent Icinga2 Docker on RaspberryPi Cluster
 published: true
 layout: post
 disqus: yes
@@ -25,6 +25,11 @@ on this topic, but I felt the other methods were failing me and I wanted more pe
 
 I started trying to convert the official container into a persistent instance with [mkicinga](https://github.com/joshuacox/mkicinga), 
 however, mysql was acting funny on me, and I’d rather not have it in the image anyhow, so I went back to the fork of jeyk’s old debian based [Dockerfile](http://joshuacox.github.io/docker-icinga2)
+
+#### Requirements
+
+* [RaspberryPi Full kit](http://astore.amazon.com/joshuacoxgith-20/detail/B00MV6TAJI/189-3117811-4891539) at least one, but I’d recommend three
+* [Cluster setup](http://joshuacox.github.io/docker/2015/12/13/RaspberryPi-Docker-Cluster-Consul-Swarm/) from our previous post there
 
 #### Usage
 
