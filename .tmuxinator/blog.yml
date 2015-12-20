@@ -13,4 +13,4 @@ windows:
   - serve:
     - git pull
     - git push
-    - jekyll serve -P4001 --drafts --safe
+    - jekyll serve -P4001 --drafts
