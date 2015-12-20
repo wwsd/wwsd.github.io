@@ -15,7 +15,7 @@ photo_url: /img/jessiefraz.jpg
 
 Ok, I just loved the zooming text Jessie Frazelle had added to her main [site](https://jessfraz.com/)
 
-First let’s look at how her javascript is working, notice she creates a function that adds and removes classes “slideInDown” and “slideOutUp” on elements with the class “favthing”
+First let’s look at how her javascript is working, notice she creates a function that adds and removes classes “slideInDown" and “slideOutUp" on elements with the class “favthing"
 
 {% highlight javascript %}
       var sleep = function(ms, callback) {
@@ -83,7 +83,7 @@ Now add a span where ever you like and the javascript will start animating it, e
 
 I also had to add in animate.css
 
-      <link rel=”stylesheet” href=”/assets/css/animate.min.css”>
+      <link rel="stylesheet" href="/assets/css/animate.min.css">
 
 My complete changes to the javascript:
 

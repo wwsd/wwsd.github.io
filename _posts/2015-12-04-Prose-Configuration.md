@@ -92,7 +92,7 @@ Now we’re going to set some default metadata and tell prose what to expect fro
             value: false
 {% endraw  %}
 
-This next field is the categories field which will be of element type “select” meaning that you can only select one of these categories
+This next field is the categories field which will be of element type “select" meaning that you can only select one of these categories
 
 {% raw  %}
         - name: "category"

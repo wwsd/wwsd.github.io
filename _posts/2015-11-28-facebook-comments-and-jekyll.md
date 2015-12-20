@@ -20,11 +20,11 @@ then add your site as a new app in Facebook Comments:
 
 [developers.facebook.com/docs/plugins/comments](https://developers.facebook.com/docs/plugins/comments)
 
-once you have created your app you should be able to locate it in  [developers.facebook.com/apps](https://developers.facebook.com/apps/) once you have located it click on it to go to it’s admin panel, then click “settings”, in here you’ll want to make sure your domain is added to the App Domains, and then click on the “Status and Review” page, in there you can make your app publicly accessible
+once you have created your app you should be able to locate it in  [developers.facebook.com/apps](https://developers.facebook.com/apps/) once you have located it click on it to go to it’s admin panel, then click “settings", in here you’ll want to make sure your domain is added to the App Domains, and then click on the “Status and Review" page, in there you can make your app publicly accessible
 
 ### Jekyll Configuration
 
-Now then when you click the “Get Code” button on the above doc page it will give you two blocks of code, the first of which I make into an include which you can see the one for this blog here:
+Now then when you click the “Get Code" button on the above doc page it will give you two blocks of code, the first of which I make into an include which you can see the one for this blog here:
 
 {% raw  %}
       <div id="fb-root"></div>
@@ -50,7 +50,7 @@ Then add this somewhere after your content block  (where YOUR_SITE_NAME is the f
 
 Add a meta property with your app_id:
 
-    <meta property=”fb:app_id”       content=”978128892233940” />
+    <meta property="fb:app_id"       content="978128892233940" />
 
 Now make a post with this line in the YAML front matter:
 

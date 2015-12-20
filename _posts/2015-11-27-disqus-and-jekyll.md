@@ -21,7 +21,7 @@ then add your site to disqus:
 
 <https://disqus.com/admin/create/>
 
-Along the way you will come to the install section the URL will similar to ‘YOUR_DISQUS_URL.disqus.com/admin/settings/install/’ choose the “Universal code” In the next section I’ll show you how to conditionally add this commenting feature to your post pages using the code they give you on this installation page.
+Along the way you will come to the install section the URL will similar to ‘YOUR_DISQUS_URL.disqus.com/admin/settings/install/’ choose the “Universal code" In the next section I’ll show you how to conditionally add this commenting feature to your post pages using the code they give you on this installation page.
 
 ### Jekyll Configuration
 

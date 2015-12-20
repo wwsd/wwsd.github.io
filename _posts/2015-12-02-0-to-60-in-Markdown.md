@@ -16,7 +16,7 @@ What is markdown?
 
 Here’s the first line under ‘philosophy’ From the [daring fireball main site](https://daringfireball.net/projects/markdown/syntax) 
 
-“Markdown is intended to be as easy-to-read and easy-to-write as is feasible.”
+“Markdown is intended to be as easy-to-read and easy-to-write as is feasible."
 
 Markdown is very much like an old email, you just write normally and your text is transformed into plain text between `<p></p>` tags.
 
