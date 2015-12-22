@@ -63,6 +63,18 @@
   padding: 0 9999rem;
 }
 /* ------------------------------------------------------------------------------------------- */
+.textarea .textarea-wrapper .placeholder {
+    background: $bgcolor;
+    color: $color;
+  }
+.textarea-wrapper .placeholder {
+    background: $bgcolor;
+    color: $color;
+  }
+#disqus_thread {
+    background: $bgcolor;
+    color: $color;
+  }
 .sharediv {
     text-align: center;
     background: $bgcolor;
