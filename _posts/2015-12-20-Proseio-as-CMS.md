@@ -3,7 +3,7 @@ layout: post
 title: Proseio as CMS
 published: true
 disqus: true
-fbcomments: true
+fbcomments: false
 category: jekyll
 tags: 
   - jekyll
