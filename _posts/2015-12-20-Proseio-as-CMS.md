@@ -37,7 +37,9 @@ it is important to note that you can run this yourself as they have source code 
 
 [https://github.com/prose/prose/](https://github.com/prose/prose/)
 
-This ensures that we will be able to run our own in the future!
+This ensures that we will be able to run our own in the future! Let's see a demo of ProseIO in action on this very blog, this very post in fact:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BfbMmj_xZ4k" frameborder="0" allowfullscreen></iframe>
 
 There is a great fedoss episode on Jekyll being used for healthcare.gov here:
 
