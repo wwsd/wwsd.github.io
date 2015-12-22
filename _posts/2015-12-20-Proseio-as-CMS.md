@@ -1,15 +1,16 @@
 ---
+layout: post
 title: Proseio as CMS
 published: true
-layout: post
-disqus: yes
-fbcomments: no
+disqus: true
+fbcomments: true
 category: jekyll
 tags: 
   - jekyll
   - proseio
 photo_url: /img/proseio.svg
 ---
+
 
 Proseio as CMS
 ![](/img/proseio.svg)
@@ -35,6 +36,8 @@ Though I’d recommend you at least learn how to make headings and add links and
 it is important to note that you can run this yourself as they have source code available here:
 
 [https://github.com/prose/prose/](https://github.com/prose/prose/)
+
+This ensures that we will be able to run our own in the future!
 
 There is a great fedoss episode on Jekyll being used for healthcare.gov here:
 
