@@ -75,6 +75,6 @@ EDIT:  I moved all this out to `_includes/disqus.html`  [here](https://github.co
 and you'll need these two lines set in `_config.yml` happy blogging
 
 ```
-disqus_id: joshuacoxgithubio.disqus.com
+disqus_id: joshuacoxgithubio
 org_site: joshuacox.github.io
 ```
