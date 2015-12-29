@@ -12,11 +12,11 @@ tags:
 
 Let’s Build a modern website using the static generator from Ruby
 
-First I want show this great playlist that is an excellent breakdown of how to get started with building a website, it happens to use jekyll so I thought it would be a great addition to the collection here that I’m building for jekyll as this covers many of the basics I have not covered yet and may not ever
+First I want to show this great playlist that is an excellent breakdown of how to get started with building a website, it happens to use jekyll, so I thought it would be a great addition to the collection here, that I’m building for jekyll, as this covers many of the basics I have not covered yet, and may not ever
 
 [How to build a responsive website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
 
-And there is a great podcast mentioned here:
+There is a great podcast mentioned here:
 
 [5by5.tv/webahead/54](http://5by5.tv/webahead/54)
 
