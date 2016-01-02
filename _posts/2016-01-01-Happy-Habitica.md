@@ -16,7 +16,13 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/publicSpaces_zpsmuy
 
 #Happy New Year folks!
 
-Have you tried habitica?  There have been a few of these things in the past.  That is a todo list combined with an RPG. 
+Have you tried habitica?  Your life has now been transformed into the latest form of augmented reality, you are now living the video game.  
+Earn XP and gold for doing things like cleaning the catbox, laundry, brushing your teeth, randomly find eggs from which you can hatch mammals like wolves.  
+But only if you find a bottle of nail polish first to color the animal with..... Or something like that.
+
+![](http://i1354.photobucket.com/albums/q698/thoth242/habitica-intro_zpsmngy1hhv.png)
+
+There have been a few of these things in the past.  That is a todo list combined with an RPG. 
 what makes this one interesting is that they open sourced it
 
 [github.com/HabitRPG/habitrpg](https://github.com/HabitRPG/habitrpg)
