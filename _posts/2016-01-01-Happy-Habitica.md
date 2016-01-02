@@ -11,9 +11,10 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/publicSpaces_zpsmuy
 ---
 
 ![](http://i1354.photobucket.com/albums/q698/thoth242/Wiki-wordmark_zpsid5nsoqx.png)
-#Happy New Year folks!
 
 ![](http://i1354.photobucket.com/albums/q698/thoth242/frabjabulous_zpsexkr3vkm.png)
+##Happy New Year folks!
+
 Have you tried habitica?  Your life has now been transformed into the latest form of augmented reality, you are now living the video game.  
 Earn XP and gold for doing things like cleaning the catbox, laundry, brushing your teeth, randomly find eggs from which you can hatch mammals like wolves.  
 But only if you find a bottle of nail polish first to color the animal with..... Or something like that.
