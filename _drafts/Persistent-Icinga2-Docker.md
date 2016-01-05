@@ -28,7 +28,7 @@ however, mysql was acting funny on me, and I’d rather not have it in the image
 
 #### Requirements
 
-* [RaspberryPi Full kit](http://astore.amazon.com/joshuacoxgith-20/detail/B00MV6TAJI/189-3117811-4891539) at least one, but I’d recommend three
+* [RaspberryPi Full kit](http://astore.amazon.com/joshuacox-20/detail/B00MV6TAJI/189-3117811-4891539) at least one, but I’d recommend three
 * [Cluster setup](http://joshuacox.github.io/docker/2015/12/13/RaspberryPi-Docker-Cluster-Consul-Swarm/) from our previous post there
 
 #### Usage

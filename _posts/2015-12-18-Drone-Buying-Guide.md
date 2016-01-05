@@ -38,7 +38,7 @@ and bit higher of a price this seems to be an up and coming feature rich option
 
 [DroneCode](https://www.dronecode.org/)  is a consortium with an impressive [memeber list](https://www.dronecode.org/about/project-members) this project is composed of many smaller projects, some of which I have already mentioned, you can find them all [here](https://www.dronecode.org/dronecode-software-platform)
 
-[Open Pilot](https://www.openpilot.org/) is yet another open software group dedicated to drone pilot software and hardware. The [CC3D](http://amzn.to/1OcADR6) is one of the cheaper pieces of hardware available to pilot your drone. And is my recommendation for your first drone
+[Open Pilot](https://www.openpilot.org/) is yet another open software group dedicated to drone pilot software and hardware. The [CC3D](http://amzn.to/1mDIUaH) is one of the cheaper pieces of hardware available to pilot your drone. And is my recommendation for your first drone
 
 ### Radio TX
 
@@ -50,7 +50,7 @@ But you also don't need an expensive [Futaba 18MZH](http://amzn.to/1OcAWvq)
 You can find some really cool retro stuff out there like this
 [Taranis X9E](http://www.hobbyking.com/hobbyking/store/__87932__Taranis_X9E_Mode_2_non_EU_Version_US_Plug_.html)
 That thing looks great and is expandable to 32 channels, has speech output, telemetry, all the bells and whistles
-The [Taranis X9D](http://amzn.to/1OcB7qB)
+The [Taranis X9D](http://amzn.to/1mDHKMc)
 is a step down but comes with the receiver module
 
 ##### 9XR
@@ -61,8 +61,8 @@ Even better this had evolved into the 9XR and now has multiple different open so
 
 <http://www.turnigy9xr.com/>
 
-And now there is a 
-[9XR Pro](http://amzn.to/1OcBdON)
+And now there is a
+[9XR Pro](http://amzn.to/1SxVSTS)
 
 <iframe id="viddler-d2c3680e" src="//www.viddler.com/embed/d2c3680e/?f=1&offset=0&autoplay=0&player=full&secret=58779214&disablebranding=0&view_secret=49636673" width="545" height="349" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
@@ -79,21 +79,21 @@ on their site.  Here is a few suggestions on:
 Then you'll need a module inside your UAV to receive your transmissions to control the craft.
 Again [OpenLRS](http://openlrsng.org/) seems to be the leader in this field.
 They have a great [hardware list](http://openlrsng.org/#hardware) on their site.
-You can find the [hawkeye](http://astore.amazon.com/joshuacoxgith-20/detail/B00QBKZI00) on amazon there, or 
+You can find the [hawkeye](http://astore.amazon.com/joshuacox-20/detail/B00QBKZI00) on amazon there, or 
 the [OrangeRx](http://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_LRS_433MHz_9Ch_Receiver.html) at hobbyking there
 
 ### UAV Frame, batteries, motors, and ESPs
 
 Now we need the drone itself, I'm a big fan of starting small and going big later so let's look at a few of the '200' class (200 mm that is), 
-there is a sub$20 frame [here](http://amzn.to/1NXM5UU),
+there is a sub$20 frame [here](http://amzn.to/1mDI9hB),
 you will also need at least four motors (start with a quad as hexcopters are more complicated),
 four electronic speed controllers (ESPs),
 one battery (2s - for 2 cells in series, you can break your equipment later by trying a 3s)
 don't forget propellors!
 
-or there are whole kits on [amazon](http://amzn.to/1mcJmwm) and that one is eligible for Amazon prime meaning you can get 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc that you can find [here](http://astore.amazon.com/joshuacoxgith-20)
+or there are whole kits on [amazon](http://amzn.to/1SxVYuF) and that one is eligible for Amazon prime meaning you can get 2-day shipping for free, just in time for Christmas! That one is the cheapest, there are a few more on there as well that come with bigger frames etc that you can find [here](http://astore.amazon.com/joshuacox-20)
 
-notice that any of those still need the radio like the [9XR Pro](http://amzn.to/1OcoHPt) that I mentioned above.
+notice that any of those still need the radio like the [9XR Pro](http://amzn.to/1mDIz7P) that I mentioned above.
 
 ###Highlights from HobbyKing 2015 Beer Lift Challenge
 
@@ -108,5 +108,5 @@ for now check out [GetFPV](http://www.getfpv.com/) and [HobbyKing](http://www.ho
 
 Eventually I want to hook a flight stick up instead of having to use the little RC sticks [forum topic talking about USB input](http://openrcforums.com/forum/viewtopic.php?t=6538)
 
-I’m setting up an [amazon store](http://astore.amazon.com/joshuacoxgith-20) with a bunch of this collected in one location.  Mainly so I can help others do the same thing with their blogs.  Happy Droning folks!
+I’m setting up an [amazon store](http://astore.amazon.com/joshuacox-20) with a bunch of this collected in one location.  Mainly so I can help others do the same thing with their blogs.  Happy Droning folks!
 
