@@ -136,6 +136,11 @@ Then change the `PluginDir` line in  `/etc/icinga2/constants.conf`
 const PluginDir = "/usr/local/nagios/plugins"
 ```
 
+### Distributed Monitoring and High Availability
+
+Now to configure everything you'll need to add each endpoint and zone as described here in the [Icinga2 docs](http://docs.icinga.org/icinga2/snapshot/doc/module/icinga2/chapter/distributed-monitoring-high-availability)
+
+
 again main page here for my docker-icinga2:
 
 [joshuacox.github.io/docker-icinga2](http://joshuacox.github.io/docker-icinga2)
