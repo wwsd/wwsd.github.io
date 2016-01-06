@@ -117,7 +117,7 @@ For more details view the full [Icinga2 client docs](http://docs.icinga.org/icin
 
 ### Monitoring Plugins
 
-You might notice some plugins missing in the form of error message search for stuff in `/usr/lib64/nagios/plugins`
+You might notice some plugins missing in the form of error messages of icinga searching for stuff in `/usr/lib64/nagios/plugins`
 
 CentOS and RHEL systems in particular only come with a dismal amount of plugins, so let's install the gold standard in terms of plugins
 download [here](https://www.monitoring-plugins.org/download.html), and then uncompress and install them
