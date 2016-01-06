@@ -71,7 +71,7 @@ Now let's set it up as master
 
 ```
 make enter      # we have ‘entered’ the container
-icinga 2 node wizard
+icinga2 node wizard
 ```
 
 you'll answer 'n' to the first question as this is the master, when it asks you about bind hosts and ports just hit return the defaults are fine here.
@@ -79,7 +79,7 @@ Now setup a seond host with icinga2 on it, you can use our docker container agai
 On this second host go though the wizard again, this time answer 'Y' to the first question as this is a satellite node
 
 ```
-icinga 2 node wizard
+icinga2 node wizard
 ```
 
 you will be prompted for a pki key at one point it provides a hint, something similar to:
