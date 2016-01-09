@@ -37,3 +37,5 @@ the iOs app:
 And much, much more, including email servers, chrome extensions, more experimental phone [builds](https://github.com/HabitRPG/habitrpg-mobile) that use angularJs and phonegap.  
 
 Kudos to them for open sourcing everything, I think I'll join and actually buy from this company.  The only thing that would make be feel better is if they were a [coop](http://www.webhosting.coop/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hgdeJnSili0" frameborder="0" allowfullscreen></iframe>

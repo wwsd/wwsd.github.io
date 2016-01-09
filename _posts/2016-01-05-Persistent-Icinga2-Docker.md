@@ -65,9 +65,11 @@ MYSQL_ROOT_PASS file hanging out after these Makefiles have ran (i.e. on all doc
 make prod
 ```
 
-### Clustering and client setup
+#### Clustering 
 
-Now let's set it up as master
+#####  master setup
+
+Now let's set it up our master, enter our 
 
 ```
 make enter      # we have ‘entered’ the container
@@ -75,6 +77,9 @@ icinga2 node wizard
 ```
 
 you'll answer 'n' to the first question as this is the master, when it asks you about bind hosts and ports just hit return the defaults are fine here.
+
+##### client setup
+
 Now setup a seond host with icinga2 on it, you can use our docker container again if you like.
 On this second host go though the wizard again, this time answer 'Y' to the first question as this is a satellite node
 
@@ -82,7 +87,7 @@ On this second host go though the wizard again, this time answer 'Y' to the firs
 icinga2 node wizard
 ```
 
-you will be prompted for a pki key at one point it provides a hint, something similar to:
+you will be prompted for a pki key at one point. It provides a hint, something similar to:
 
 ```
 icinga2 pki ticket --cn $HOSTNAME
@@ -115,7 +120,7 @@ restart the nodes and you should have your new host auto discovered and monitore
 
 For more details view the full [Icinga2 client docs](http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2-client)
 
-### Monitoring Plugins
+#### Monitoring Plugins
 
 You might notice some plugins missing in the form of error messages of icinga searching for stuff in `/usr/lib64/nagios/plugins`
 
