@@ -14,6 +14,8 @@ Let’s Build a modern website using the static generator from Ruby
 
 First I want to show this great playlist that is an excellent breakdown of how to get started with building a website, it happens to use jekyll, so I thought it would be a great addition to the collection here, that I’m building for jekyll, as this covers many of the basics I have not covered yet, and may not ever
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI" frameborder="0" allowfullscreen></iframe>
+
 [How to build a responsive website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
 
 There is a great podcast mentioned here:
