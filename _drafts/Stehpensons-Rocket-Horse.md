@@ -10,7 +10,7 @@ tags:
 photo_url: /img/thumbs/DELETE_THIS_LINE_IF_UNUSED.jpg
 ---
 
-SteamOS is here, with steam machies aplenty from all sorts of manufacturers
+SteamOS is here, with steam machines aplenty from all sorts of manufacturers
 
 But if you want RAID or to install to legacy systems then you need a steam powered stephenson rocket horse, of course.
 

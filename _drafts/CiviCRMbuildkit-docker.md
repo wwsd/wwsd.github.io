@@ -14,9 +14,9 @@ photo_url: http://i1354.photobucket.com/albums/q698/thoth242/civicrmlogo-sq_zpsc
 
 [CiviCRM](https://civicrm.org/) is a great example of what can be done with open source
 
-CiviCRM started in 2004 by Dave Greenberg, Donald Lobo and Michal Mach.  It was started to help organizations organize their constituents.  There is a full history here:
-
-(http://book.civicrm.org/user/introduction/who-is-civicrm/)[http://book.civicrm.org/user/introduction/who-is-civicrm/]
+CiviCRM started in 2004 by Dave Greenberg, Donald Lobo and Michal Mach.
+It was started to help organizations organize their constituents.  
+There is a full history (here)[http://book.civicrm.org/user/introduction/who-is-civicrm/]:
 
 
 
