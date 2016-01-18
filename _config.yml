@@ -6,39 +6,39 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
 
-name: "The Blog of Joshua Cox"
-description: "Where I blog about Jekyll, techronmancy, docker, and other usually linux related stuff"
-url: http://joshuacox.github.io
-author: Joshua Cox
+name: "Splash of a Mermaid"
+description: "Our superpower, you ask? No strings attached encouragement. Why? Because we believe in paying it forward."
+url: http://wwsd.github.io
+author: Jennifer Rowan
 locale: eng-US
 
-disqus_id: joshuacoxgithubio
+disqus_id: splashofamermaid
 #REQUIRED
-org_site: joshuacox.github.io
-org_url: https://joshuacox.github.io
-org_name: Joshua Cox
+org_site: wwsd.github.io
+org_url: https://wwsd.github.io
+org_name: Splash of a Mermaid
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
-  Techromancer
+  Did you hear that?
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  Have Portable Penetration Testing Hardware - will travel
+  Building better mermaids everywhere
 
 #OPTIONAL
 #Non US-address support coming soon
-org_general_email_inbox: uberthoth@gmail.com
-org_street_address: 1105 West Oltorf #Please include suite number on the line below
+org_general_email_inbox: jennljr@gmail.com
+org_street_address:  #Please include suite number on the line below
 org_address_suite: Suite 100
 org_city: Austin
 org_state: TX
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
   78704
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (512) 441-5269
+  (555) merMAID
 
 #SOCIAL MEDIA
-github_username: joshuacox
-twitter_username: uberthoth
-facebook_username: uberthoth
-org_instagram_username: uberthoth
+github_username: WWSD
+twitter_username: 
+facebook_username: jennifer.rowan.712
+org_instagram_username: 
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
@@ -52,7 +52,7 @@ fiscal_sponsor_name:
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
 donorbox_campaign_name: free-template-demo
-tinyletter_username: uberthoth
+tinyletter_username: Splash
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
@@ -97,8 +97,8 @@ permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://joshuacox.github.io/'
-  relativeLinks: 'http://joshuacox.github.io/links.jsonp'
+  siteurl: 'http://wwsd.github.io/'
+  relativeLinks: 'http://wwsd.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts:
