@@ -43,6 +43,12 @@
   $linkcolor: #33ff33;
   $bgcolor: rgba(42, 0, 42, 0.7);
   $bgcolor-2: rgba(14, 0, 14, 0.5);
+{% elsif site.theme == "banana" %}
+  $color: #FFFB00;
+  $color-2: #FF8F00;
+  $linkcolor: #F13535;
+  $bgcolor: rgba(6, 3, 0, 0.7);
+  $bgcolor-2: rgba(0, 0, 0, 0.5);
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;

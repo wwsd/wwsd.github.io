@@ -35,7 +35,7 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
   (555) merMAID
 
 #SOCIAL MEDIA
-github_username: WWSD
+github_username: wwsd
 twitter_username: 
 facebook_username: jennifer.rowan.712
 org_instagram_username: 
@@ -60,7 +60,7 @@ publish: true
 
 #THEME
 #Select one of the five color schemes (default, one, two, three, or four)
-theme: seven
+theme: banana
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
