@@ -60,7 +60,7 @@ publish: true
 
 #THEME
 #Select one of the five color schemes (default, one, two, three, or four)
-theme: banana
+theme: bluesky
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
