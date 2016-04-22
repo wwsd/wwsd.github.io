@@ -49,6 +49,12 @@
   $linkcolor: #F13535;
   $bgcolor: rgba(6, 3, 0, 0.7);
   $bgcolor-2: rgba(0, 0, 0, 0.5);
+{% elsif site.theme == "bluesky" %}
+  $color: #8D98BE;
+  $color-2: #187AF7;
+  $linkcolor: #13C1EF;
+  $bgcolor: rgba(6, 3, 0, 0.7);
+  $bgcolor-2: rgba(0, 0, 0, 0.5);
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
